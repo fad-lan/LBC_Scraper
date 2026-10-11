@@ -8,6 +8,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
 <script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 <script>
   tailwind.config = {
     theme: {
@@ -165,6 +167,26 @@
 
   <!-- ============ FEED ============ -->
   <main class="mx-auto max-w-6xl px-4 py-6 sm:px-6">
+    <!-- Sentiment trend chart -->
+    <section id="trendSection" class="mb-6 hidden">
+      <div class="rounded-xl border border-border bg-surface p-4">
+        <div class="mb-3 flex flex-wrap items-center justify-between gap-3">
+          <div>
+            <h2 class="text-sm font-semibold text-txt">Sentiment Trend</h2>
+            <p class="font-mono text-[10px] uppercase tracking-wider text-faint">Last 7 days · score = (positive − negative) / total</p>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="font-mono text-[10px] uppercase tracking-wider text-faint">Keyword / Account</span>
+            <select id="trendKeyword" class="term min-w-[11rem] rounded-lg border border-border bg-surface py-1.5 pl-3 pr-8 font-mono text-xs text-txt focus:border-borderStrong"></select>
+          </div>
+        </div>
+        <div class="relative h-56">
+          <canvas id="trendChart"></canvas>
+        </div>
+        <p id="trendEmpty" class="hidden py-16 text-center font-mono text-xs text-dim">No trend data yet for this keyword.</p>
+      </div>
+    </section>
+
     <!-- Sentiment summary -->
     <section id="summaryPanel" class="mb-6 hidden">
       <div id="summaryContent" class="grid gap-x-10 gap-y-5 rounded-xl border border-border bg-surface p-4 sm:grid-cols-2"></div>
@@ -187,9 +209,9 @@
     <!-- Error -->
     <div id="errorState" class="mx-auto hidden max-w-md py-24 text-center">
       <div class="rounded-lg border border-border bg-surface p-6">
-        <p class="mb-1 font-semibold text-txt">Couldn't load <span class="font-mono text-accent">tweets_sentiment.json</span></p>
+        <p class="mb-1 font-semibold text-txt">Couldn't load data from <span class="font-mono text-accent">Supabase</span></p>
         <p id="errorDetail" class="font-mono text-xs leading-relaxed text-dim"></p>
-        <p class="mt-3 font-mono text-[11px] leading-relaxed text-faint">Make sure <span class="text-dim">tweets_sentiment.json</span> sits in the same directory. Opening this file directly with <span class="text-dim">file://</span> blocks fetch — serve it (e.g. <span class="text-dim">python3 -m http.server</span>) or deploy to Vercel.</p>
+        <p class="mt-3 font-mono text-[11px] leading-relaxed text-faint">Check that the <span class="text-dim">tweets</span> / <span class="text-dim">sentiment_runs</span> tables exist and their read policies are enabled, and that the Supabase URL/anon key below are correct.</p>
       </div>
     </div>
   </main>
@@ -202,9 +224,19 @@
 (function () {
   "use strict";
 
+  // Public anon key: safe to embed client-side. RLS on the tweets /
+  // sentiment_runs tables restricts the anon role to read-only (see
+  // supabase_schema.sql) — writes require the service_role key, which
+  // only sentiment.py holds.
+  const SUPABASE_URL = "https://pzsrizxqvkxfwioassyz.supabase.co";
+  const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InB6c3Jpenhxdmt4Zndpb2Fzc3l6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE3NDUyNTYsImV4cCI6MjEwNzMyMTI1Nn0.Ek9E12jwEg1SMB24m05cc1fYubUl_MysO_k1r_VA58A";
+  const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
   const state = { source: "all", specific: "all", sentiment: "all", search: "" };
   let allTweets = [];
+  let allRuns = [];
   let kwSentMap = {};
+  let trendChart = null;
 
   const $ = (id) => document.getElementById(id);
   const feedEl = $("feed");
@@ -300,14 +332,23 @@
   }
 
   // ---------- data / fetch ----------
+  function sevenDaysAgoIso() {
+    const d = new Date();
+    d.setDate(d.getDate() - 7);
+    return d.toISOString();
+  }
+
   async function load() {
     try {
-      const res = await fetch("tweets_sentiment.json", { cache: "no-store" });
-      if (!res.ok) throw new Error("HTTP " + res.status + " " + res.statusText);
-      const data = await res.json();
-      allTweets = Array.isArray(data.tweets) ? data.tweets.slice() : [];
-      // newest first
-      allTweets.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+      const [tweetsRes, runsRes] = await Promise.all([
+        sb.from("tweets").select("*").order("timestamp", { ascending: false }).limit(200),
+        sb.from("sentiment_runs").select("*").gte("run_at", sevenDaysAgoIso()).order("run_at", { ascending: true })
+      ]);
+      if (tweetsRes.error) throw tweetsRes.error;
+      if (runsRes.error) throw runsRes.error;
+
+      allTweets = tweetsRes.data || [];
+      allRuns = runsRes.data || [];
 
       // Per keyword/account sentiment tallies, computed from the tweets themselves so it
       // always covers accounts too and stays consistent with what's shown in the feed.
@@ -320,13 +361,16 @@
         else m.neutral++;
       }
 
-      $("totalCount").textContent = fmtNum(data.total_tweets != null ? data.total_tweets : allTweets.length);
-      $("scrapedAt").textContent = data.scraped_at ? fullTime(data.scraped_at) : "—";
+      const lastRunAt = allRuns.length ? allRuns[allRuns.length - 1].run_at : null;
+      $("totalCount").textContent = fmtNum(allTweets.length);
+      $("scrapedAt").textContent = lastRunAt ? fullTime(lastRunAt) : (allTweets[0] ? fullTime(allTweets[0].timestamp) : "—");
 
       $("loadingState").classList.add("hidden");
-      renderSummary(data.sentiment_summary);
+      renderSummary(null);
       buildSpecificOptions();
       render();
+      buildTrendOptions();
+      renderTrendChart();
     } catch (err) {
       $("loadingState").classList.add("hidden");
       $("errorState").classList.remove("hidden");
@@ -420,6 +464,113 @@
       ], lid + len + loth);
 
     $("summaryPanel").classList.remove("hidden");
+  }
+
+  // ---------- trend chart ----------
+  function trendLabel(ts) {
+    const d = new Date(ts);
+    if (isNaN(d.getTime())) return "";
+    return d.toLocaleString(undefined, { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" });
+  }
+
+  function buildTrendOptions() {
+    const sel = $("trendKeyword");
+    const keys = [...new Set(allRuns.map((r) => r.keyword))]
+      .sort((a, b) => a.localeCompare(b, undefined, { sensitivity: "base" }));
+
+    if (keys.length === 0) {
+      $("trendSection").classList.add("hidden");
+      return;
+    }
+    $("trendSection").classList.remove("hidden");
+
+    const prev = sel.value;
+    sel.innerHTML = keys.map((k) => `<option value="${escapeHtml(k)}">${escapeHtml(k)}</option>`).join("");
+    sel.value = keys.includes(prev) ? prev : keys[0];
+  }
+
+  function renderTrendChart() {
+    const sel = $("trendKeyword");
+    const key = sel.value;
+    const rows = allRuns
+      .filter((r) => r.keyword === key)
+      .sort((a, b) => new Date(a.run_at) - new Date(b.run_at));
+
+    const empty = rows.length === 0;
+    $("trendEmpty").classList.toggle("hidden", !empty);
+    $("trendChart").classList.toggle("hidden", empty);
+    if (empty) {
+      if (trendChart) { trendChart.destroy(); trendChart = null; }
+      return;
+    }
+
+    const labels = rows.map((r) => trendLabel(r.run_at));
+    const scores = rows.map((r) => r.sentiment_score);
+    const pointColors = scores.map((s) => (s >= 0 ? "#3fb950" : "#f85149"));
+
+    const data = {
+      labels,
+      datasets: [
+        {
+          label: "Zero",
+          data: rows.map(() => 0),
+          borderColor: "rgba(138,151,166,0.45)",
+          borderDash: [4, 4],
+          borderWidth: 1,
+          pointRadius: 0,
+          fill: false
+        },
+        {
+          label: key,
+          data: scores,
+          borderWidth: 2,
+          tension: 0.25,
+          pointRadius: 3,
+          pointBackgroundColor: pointColors,
+          pointBorderColor: pointColors,
+          segment: {
+            borderColor: (ctx) => {
+              const avg = (ctx.p0.parsed.y + ctx.p1.parsed.y) / 2;
+              return avg >= 0 ? "#3fb950" : "#f85149";
+            }
+          },
+          fill: false
+        }
+      ]
+    };
+
+    const options = {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: "nearest", intersect: false },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          filter: (item) => item.dataset.label !== "Zero",
+          callbacks: { label: (item) => `score: ${item.parsed.y.toFixed(2)}` }
+        }
+      },
+      scales: {
+        x: {
+          grid: { color: "rgba(32,42,54,0.6)" },
+          ticks: { color: "#5b6675", autoSkip: true, maxTicksLimit: 8, maxRotation: 0, font: { family: "JetBrains Mono", size: 10 } }
+        },
+        y: {
+          min: -1,
+          max: 1,
+          grid: { color: "rgba(32,42,54,0.6)" },
+          ticks: { color: "#5b6675", stepSize: 0.5, font: { family: "JetBrains Mono", size: 10 } }
+        }
+      }
+    };
+
+    if (trendChart) {
+      trendChart.data = data;
+      trendChart.options = options;
+      trendChart.update();
+    } else {
+      trendChart = new Chart($("trendChart").getContext("2d"), { type: "line", data, options });
+    }
   }
 
   // ---------- rendering ----------
@@ -543,6 +694,8 @@
     state.specific = e.target.value;
     render();
   });
+
+  $("trendKeyword").addEventListener("change", renderTrendChart);
 
   let searchTimer;
   $("searchInput").addEventListener("input", (e) => {
