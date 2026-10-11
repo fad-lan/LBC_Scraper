@@ -1,6 +1,78 @@
 {
-  "scraped_at": "2026-10-11T07:04:04.524820+00:00",
-  "count": 231,
+  "scraped_at": "2026-10-11T08:01:05.912458+00:00",
+  "total_tweets": 231,
+  "sentiment_summary": {
+    "positive": 13,
+    "negative": 28,
+    "neutral": 190,
+    "by_language": {
+      "id": 200,
+      "en": 22,
+      "other": 9
+    },
+    "by_keyword": {
+      "BBCA": {
+        "positive": 0,
+        "negative": 2,
+        "neutral": 18
+      },
+      "BBRI": {
+        "positive": 1,
+        "negative": 3,
+        "neutral": 16
+      },
+      "BMRI": {
+        "positive": 2,
+        "negative": 5,
+        "neutral": 13
+      },
+      "TLKM": {
+        "positive": 0,
+        "negative": 1,
+        "neutral": 19
+      },
+      "IHSG": {
+        "positive": 1,
+        "negative": 5,
+        "neutral": 14
+      },
+      "rupiah": {
+        "positive": 1,
+        "negative": 4,
+        "neutral": 15
+      },
+      "IDX saham": {
+        "positive": 2,
+        "negative": 0,
+        "neutral": 18
+      },
+      "Bank Indonesia": {
+        "positive": 2,
+        "negative": 2,
+        "neutral": 16
+      },
+      "OJK": {
+        "positive": 1,
+        "negative": 5,
+        "neutral": 14
+      },
+      "@bank_indonesia": {
+        "positive": 2,
+        "negative": 1,
+        "neutral": 10
+      },
+      "@ojkindonesia": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 18
+      },
+      "@IDX_BEI": {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 19
+      }
+    }
+  },
   "tweets": [
     {
       "tweet_id": "2109169558795813056",
@@ -11,10 +83,18 @@
       "likes": 1,
       "retweets": 0,
       "replies": 0,
-      "views": "22",
+      "views": "33",
       "url": "https://x.com/polarislunar/status/2109169558795813056",
       "keyword": "BBCA",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9892,
+      "sentiment_raw": {
+        "positive": 0.0082,
+        "neutral": 0.9892,
+        "negative": 0.0027
+      }
     },
     {
       "tweet_id": "2109165151039758337",
@@ -25,10 +105,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "15",
+      "views": "20",
       "url": "https://x.com/yiejiapsa/status/2109165151039758337",
       "keyword": "BBCA",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "negative",
+      "sentiment_score": 0.9472,
+      "sentiment_raw": {
+        "positive": 0.0132,
+        "neutral": 0.0396,
+        "negative": 0.9472
+      }
     },
     {
       "tweet_id": "2109138047401091302",
@@ -39,10 +127,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "15",
+      "views": "21",
       "url": "https://x.com/lucidstellar/status/2109138047401091302",
       "keyword": "BBCA",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9886,
+      "sentiment_raw": {
+        "positive": 0.009,
+        "neutral": 0.9886,
+        "negative": 0.0024
+      }
     },
     {
       "tweet_id": "2109126785283793121",
@@ -53,10 +149,18 @@
       "likes": 3,
       "retweets": 0,
       "replies": 0,
-      "views": "45",
+      "views": "47",
       "url": "https://x.com/1792_c/status/2109126785283793121",
       "keyword": "BBCA",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.99,
+      "sentiment_raw": {
+        "positive": 0.0082,
+        "neutral": 0.99,
+        "negative": 0.0017
+      }
     },
     {
       "tweet_id": "2109122871264149924",
@@ -67,10 +171,18 @@
       "likes": 1,
       "retweets": 0,
       "replies": 0,
-      "views": "126",
+      "views": "136",
       "url": "https://x.com/goozzziiii/status/2109122871264149924",
       "keyword": "BBCA",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9973,
+      "sentiment_raw": {
+        "positive": 0.0019,
+        "neutral": 0.9973,
+        "negative": 0.0007
+      }
     },
     {
       "tweet_id": "2109122165526442039",
@@ -81,10 +193,18 @@
       "likes": 1,
       "retweets": 0,
       "replies": 0,
-      "views": "46",
+      "views": "61",
       "url": "https://x.com/trexulala/status/2109122165526442039",
       "keyword": "BBCA",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8644,
+      "sentiment_raw": {
+        "positive": 0.0997,
+        "neutral": 0.8644,
+        "negative": 0.0359
+      }
     },
     {
       "tweet_id": "2109113399758221647",
@@ -95,10 +215,18 @@
       "likes": 1,
       "retweets": 0,
       "replies": 0,
-      "views": "39",
+      "views": "40",
       "url": "https://x.com/indeksIND/status/2109113399758221647",
       "keyword": "BBCA",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.982,
+      "sentiment_raw": {
+        "positive": 0.0141,
+        "neutral": 0.982,
+        "negative": 0.0039
+      }
     },
     {
       "tweet_id": "2109074087691850072",
@@ -109,10 +237,18 @@
       "likes": 5,
       "retweets": 0,
       "replies": 0,
-      "views": "130",
+      "views": "137",
       "url": "https://x.com/sippuudotou810/status/2109074087691850072",
       "keyword": "BBCA",
-      "source": null
+      "source": null,
+      "language": "other",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9431,
+      "sentiment_raw": {
+        "positive": 0.0361,
+        "neutral": 0.9431,
+        "negative": 0.0208
+      }
     },
     {
       "tweet_id": "2109065035092013319",
@@ -123,10 +259,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "54",
+      "views": "60",
       "url": "https://x.com/canistels/status/2109065035092013319",
       "keyword": "BBCA",
-      "source": null
+      "source": null,
+      "language": "other",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9858,
+      "sentiment_raw": {
+        "positive": 0.0099,
+        "neutral": 0.9858,
+        "negative": 0.0043
+      }
     },
     {
       "tweet_id": "2109061230434590897",
@@ -137,10 +281,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "407",
+      "views": "419",
       "url": "https://x.com/InvestorID/status/2109061230434590897",
       "keyword": "BBCA",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9961,
+      "sentiment_raw": {
+        "positive": 0.0015,
+        "neutral": 0.9961,
+        "negative": 0.0024
+      }
     },
     {
       "tweet_id": "2109039987610271845",
@@ -148,13 +300,21 @@
       "author": "ざっそう@エビフライ",
       "username": "zassou_0922",
       "timestamp": "Sat Oct 10 21:54:51 +0000 2026",
-      "likes": 8,
+      "likes": 9,
       "retweets": 0,
       "replies": 0,
-      "views": "187",
+      "views": "194",
       "url": "https://x.com/zassou_0922/status/2109039987610271845",
       "keyword": "BBCA",
-      "source": null
+      "source": null,
+      "language": "other",
+      "sentiment": "neutral",
+      "sentiment_score": 0.973,
+      "sentiment_raw": {
+        "positive": 0.0141,
+        "neutral": 0.973,
+        "negative": 0.0129
+      }
     },
     {
       "tweet_id": "2108936766485107167",
@@ -165,10 +325,18 @@
       "likes": 1,
       "retweets": 0,
       "replies": 0,
-      "views": "41",
+      "views": "42",
       "url": "https://x.com/lovedbyjuhoon/status/2108936766485107167",
       "keyword": "BBCA",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9902,
+      "sentiment_raw": {
+        "positive": 0.0079,
+        "neutral": 0.9902,
+        "negative": 0.0019
+      }
     },
     {
       "tweet_id": "2108930861550686563",
@@ -179,10 +347,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "27",
+      "views": "29",
       "url": "https://x.com/demtemy/status/2108930861550686563",
       "keyword": "BBCA",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8957,
+      "sentiment_raw": {
+        "positive": 0.0696,
+        "neutral": 0.8957,
+        "negative": 0.0346
+      }
     },
     {
       "tweet_id": "2108910561077387352",
@@ -193,10 +369,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "723",
+      "views": "726",
       "url": "https://x.com/KabsMuuka/status/2108910561077387352",
       "keyword": "BBCA",
-      "source": null
+      "source": null,
+      "language": "en",
+      "sentiment": "negative",
+      "sentiment_score": 0.9522,
+      "sentiment_raw": {
+        "negative": 0.9522,
+        "neutral": 0.0421,
+        "positive": 0.0057
+      }
     },
     {
       "tweet_id": "2108892792441409961",
@@ -207,10 +391,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "273",
+      "views": "274",
       "url": "https://x.com/amorisinza/status/2108892792441409961",
       "keyword": "BBCA",
-      "source": null
+      "source": null,
+      "language": "other",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9153,
+      "sentiment_raw": {
+        "positive": 0.0425,
+        "neutral": 0.9153,
+        "negative": 0.0422
+      }
     },
     {
       "tweet_id": "2108885722627297597",
@@ -221,10 +413,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "33",
+      "views": "34",
       "url": "https://x.com/B_Ostfreese/status/2108885722627297597",
       "keyword": "BBCA",
-      "source": null
+      "source": null,
+      "language": "other",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9694,
+      "sentiment_raw": {
+        "positive": 0.0146,
+        "neutral": 0.9694,
+        "negative": 0.016
+      }
     },
     {
       "tweet_id": "2108884592879096021",
@@ -235,10 +435,18 @@
       "likes": 17,
       "retweets": 1,
       "replies": 1,
-      "views": "1571",
+      "views": "1578",
       "url": "https://x.com/bandarmetrics/status/2108884592879096021",
       "keyword": "BBCA",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.994,
+      "sentiment_raw": {
+        "positive": 0.0039,
+        "neutral": 0.994,
+        "negative": 0.0021
+      }
     },
     {
       "tweet_id": "2108839140645019918",
@@ -249,10 +457,18 @@
       "likes": 1,
       "retweets": 1,
       "replies": 0,
-      "views": "35",
+      "views": "37",
       "url": "https://x.com/GreenSaxo/status/2108839140645019918",
       "keyword": "BBCA",
-      "source": null
+      "source": null,
+      "language": "other",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9698,
+      "sentiment_raw": {
+        "positive": 0.0159,
+        "neutral": 0.9698,
+        "negative": 0.0143
+      }
     },
     {
       "tweet_id": "2108838333774524900",
@@ -263,10 +479,18 @@
       "likes": 0,
       "retweets": 1,
       "replies": 0,
-      "views": "133",
+      "views": "134",
       "url": "https://x.com/wansaramadhan/status/2108838333774524900",
       "keyword": "BBCA",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8599,
+      "sentiment_raw": {
+        "positive": 0.1303,
+        "neutral": 0.8599,
+        "negative": 0.0098
+      }
     },
     {
       "tweet_id": "2108805537072869686",
@@ -277,10 +501,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "43",
+      "views": "44",
       "url": "https://x.com/OxytocinBoostr/status/2108805537072869686",
       "keyword": "BBCA",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9887,
+      "sentiment_raw": {
+        "positive": 0.0086,
+        "neutral": 0.9887,
+        "negative": 0.0027
+      }
     },
     {
       "tweet_id": "2109119785510592720",
@@ -294,7 +526,15 @@
       "views": "31",
       "url": "https://x.com/stick_cloud/status/2109119785510592720",
       "keyword": "BBRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "negative",
+      "sentiment_score": 0.4952,
+      "sentiment_raw": {
+        "positive": 0.2478,
+        "neutral": 0.257,
+        "negative": 0.4952
+      }
     },
     {
       "tweet_id": "2109113399758221647",
@@ -305,10 +545,18 @@
       "likes": 1,
       "retweets": 0,
       "replies": 0,
-      "views": "39",
+      "views": "40",
       "url": "https://x.com/indeksIND/status/2109113399758221647",
       "keyword": "BBRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.982,
+      "sentiment_raw": {
+        "positive": 0.0141,
+        "neutral": 0.982,
+        "negative": 0.0039
+      }
     },
     {
       "tweet_id": "2109071508920529263",
@@ -322,7 +570,15 @@
       "views": "14",
       "url": "https://x.com/Stathfin/status/2109071508920529263",
       "keyword": "BBRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9937,
+      "sentiment_raw": {
+        "positive": 0.0041,
+        "neutral": 0.9937,
+        "negative": 0.0022
+      }
     },
     {
       "tweet_id": "2109062846831325583",
@@ -333,10 +589,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "63",
+      "views": "64",
       "url": "https://x.com/jo_maenSaham/status/2109062846831325583",
       "keyword": "BBRI",
-      "source": null
+      "source": null,
+      "language": "en",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8481,
+      "sentiment_raw": {
+        "negative": 0.0957,
+        "neutral": 0.8481,
+        "positive": 0.0562
+      }
     },
     {
       "tweet_id": "2108838333774524900",
@@ -347,10 +611,18 @@
       "likes": 0,
       "retweets": 1,
       "replies": 0,
-      "views": "133",
+      "views": "134",
       "url": "https://x.com/wansaramadhan/status/2108838333774524900",
       "keyword": "BBRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8599,
+      "sentiment_raw": {
+        "positive": 0.1303,
+        "neutral": 0.8599,
+        "negative": 0.0098
+      }
     },
     {
       "tweet_id": "2108820451132915781",
@@ -364,7 +636,15 @@
       "views": "50",
       "url": "https://x.com/Cuanismeid/status/2108820451132915781",
       "keyword": "BBRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8696,
+      "sentiment_raw": {
+        "positive": 0.1182,
+        "neutral": 0.8696,
+        "negative": 0.0122
+      }
     },
     {
       "tweet_id": "2108793070380621897",
@@ -378,7 +658,15 @@
       "views": "29",
       "url": "https://x.com/malodabivictor/status/2108793070380621897",
       "keyword": "BBRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "positive",
+      "sentiment_score": 0.9929,
+      "sentiment_raw": {
+        "positive": 0.9929,
+        "neutral": 0.0057,
+        "negative": 0.0014
+      }
     },
     {
       "tweet_id": "2108755970033877254",
@@ -392,7 +680,15 @@
       "views": "13",
       "url": "https://x.com/stockteracer/status/2108755970033877254",
       "keyword": "BBRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9943,
+      "sentiment_raw": {
+        "positive": 0.0046,
+        "neutral": 0.9943,
+        "negative": 0.0011
+      }
     },
     {
       "tweet_id": "2108739236325450125",
@@ -403,10 +699,18 @@
       "likes": 2,
       "retweets": 1,
       "replies": 1,
-      "views": "677",
+      "views": "680",
       "url": "https://x.com/InvestorID/status/2108739236325450125",
       "keyword": "BBRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9973,
+      "sentiment_raw": {
+        "positive": 0.0017,
+        "neutral": 0.9973,
+        "negative": 0.0011
+      }
     },
     {
       "tweet_id": "2108725512994717916",
@@ -417,10 +721,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "93",
+      "views": "94",
       "url": "https://x.com/jo_maenSaham/status/2108725512994717916",
       "keyword": "BBRI",
-      "source": null
+      "source": null,
+      "language": "en",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8494,
+      "sentiment_raw": {
+        "negative": 0.0699,
+        "neutral": 0.8494,
+        "positive": 0.0807
+      }
     },
     {
       "tweet_id": "2108696779479031895",
@@ -431,10 +743,18 @@
       "likes": 45,
       "retweets": 4,
       "replies": 0,
-      "views": "2283",
+      "views": "2284",
       "url": "https://x.com/aldotjahjadi8/status/2108696779479031895",
       "keyword": "BBRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9514,
+      "sentiment_raw": {
+        "positive": 0.0395,
+        "neutral": 0.9514,
+        "negative": 0.0091
+      }
     },
     {
       "tweet_id": "2108581299300777998",
@@ -448,7 +768,15 @@
       "views": "133",
       "url": "https://x.com/jo_maenSaham/status/2108581299300777998",
       "keyword": "BBRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8861,
+      "sentiment_raw": {
+        "positive": 0.0225,
+        "neutral": 0.8861,
+        "negative": 0.0915
+      }
     },
     {
       "tweet_id": "2108530854217818117",
@@ -459,10 +787,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "98",
+      "views": "99",
       "url": "https://x.com/jo_maenSaham/status/2108530854217818117",
       "keyword": "BBRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.979,
+      "sentiment_raw": {
+        "positive": 0.0177,
+        "neutral": 0.979,
+        "negative": 0.0033
+      }
     },
     {
       "tweet_id": "2108513964699312254",
@@ -476,7 +812,15 @@
       "views": "104",
       "url": "https://x.com/belijualsaham/status/2108513964699312254",
       "keyword": "BBRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8947,
+      "sentiment_raw": {
+        "positive": 0.0815,
+        "neutral": 0.8947,
+        "negative": 0.0238
+      }
     },
     {
       "tweet_id": "2108490242848424295",
@@ -490,7 +834,15 @@
       "views": "97",
       "url": "https://x.com/jo_maenSaham/status/2108490242848424295",
       "keyword": "BBRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9888,
+      "sentiment_raw": {
+        "positive": 0.0062,
+        "neutral": 0.9888,
+        "negative": 0.005
+      }
     },
     {
       "tweet_id": "2108488159118147599",
@@ -504,7 +856,15 @@
       "views": "69",
       "url": "https://x.com/Ngab_zz/status/2108488159118147599",
       "keyword": "BBRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "negative",
+      "sentiment_score": 0.8827,
+      "sentiment_raw": {
+        "positive": 0.0148,
+        "neutral": 0.1025,
+        "negative": 0.8827
+      }
     },
     {
       "tweet_id": "2108469346825810047",
@@ -518,7 +878,15 @@
       "views": "77",
       "url": "https://x.com/kisi_sekuritas/status/2108469346825810047",
       "keyword": "BBRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9881,
+      "sentiment_raw": {
+        "positive": 0.0089,
+        "neutral": 0.9881,
+        "negative": 0.003
+      }
     },
     {
       "tweet_id": "2108463545985929507",
@@ -532,7 +900,15 @@
       "views": "542",
       "url": "https://x.com/idx_channel/status/2108463545985929507",
       "keyword": "BBRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9886,
+      "sentiment_raw": {
+        "positive": 0.008,
+        "neutral": 0.9886,
+        "negative": 0.0034
+      }
     },
     {
       "tweet_id": "2108414827337298238",
@@ -546,7 +922,15 @@
       "views": "59",
       "url": "https://x.com/officialbitv/status/2108414827337298238",
       "keyword": "BBRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9934,
+      "sentiment_raw": {
+        "positive": 0.0054,
+        "neutral": 0.9934,
+        "negative": 0.0013
+      }
     },
     {
       "tweet_id": "2108379644277965121",
@@ -560,7 +944,15 @@
       "views": "19",
       "url": "https://x.com/alenoragrace/status/2108379644277965121",
       "keyword": "BBRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "negative",
+      "sentiment_score": 0.9956,
+      "sentiment_raw": {
+        "positive": 0.0021,
+        "neutral": 0.0023,
+        "negative": 0.9956
+      }
     },
     {
       "tweet_id": "2109132300483236275",
@@ -571,10 +963,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 1,
-      "views": "350",
+      "views": "380",
       "url": "https://x.com/KontanNews/status/2109132300483236275",
       "keyword": "BMRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9959,
+      "sentiment_raw": {
+        "positive": 0.0029,
+        "neutral": 0.9959,
+        "negative": 0.0011
+      }
     },
     {
       "tweet_id": "2109113772841591077",
@@ -585,10 +985,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "16",
+      "views": "19",
       "url": "https://x.com/masmadsun63908/status/2109113772841591077",
       "keyword": "BMRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9817,
+      "sentiment_raw": {
+        "positive": 0.0131,
+        "neutral": 0.9817,
+        "negative": 0.0052
+      }
     },
     {
       "tweet_id": "2109068291675402332",
@@ -599,10 +1007,18 @@
       "likes": 1,
       "retweets": 0,
       "replies": 0,
-      "views": "141",
+      "views": "144",
       "url": "https://x.com/aldotjahjadi8/status/2109068291675402332",
       "keyword": "BMRI",
-      "source": null
+      "source": null,
+      "language": "en",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8036,
+      "sentiment_raw": {
+        "negative": 0.1182,
+        "neutral": 0.8036,
+        "positive": 0.0782
+      }
     },
     {
       "tweet_id": "2109055516408447183",
@@ -613,10 +1029,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "414",
+      "views": "418",
       "url": "https://x.com/aldotjahjadi8/status/2109055516408447183",
       "keyword": "BMRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9975,
+      "sentiment_raw": {
+        "positive": 0.0013,
+        "neutral": 0.9975,
+        "negative": 0.0011
+      }
     },
     {
       "tweet_id": "2108944919620690424",
@@ -627,10 +1051,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "687",
+      "views": "694",
       "url": "https://x.com/InvestorID/status/2108944919620690424",
       "keyword": "BMRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9966,
+      "sentiment_raw": {
+        "positive": 0.0013,
+        "neutral": 0.9966,
+        "negative": 0.0021
+      }
     },
     {
       "tweet_id": "2108886863155196017",
@@ -644,7 +1076,15 @@
       "views": "17",
       "url": "https://x.com/Lawinvesting/status/2108886863155196017",
       "keyword": "BMRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9336,
+      "sentiment_raw": {
+        "positive": 0.0635,
+        "neutral": 0.9336,
+        "negative": 0.003
+      }
     },
     {
       "tweet_id": "2108886373696667814",
@@ -658,7 +1098,15 @@
       "views": "24",
       "url": "https://x.com/Mia_Linh01/status/2108886373696667814",
       "keyword": "BMRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "negative",
+      "sentiment_score": 0.469,
+      "sentiment_raw": {
+        "positive": 0.1661,
+        "neutral": 0.3649,
+        "negative": 0.469
+      }
     },
     {
       "tweet_id": "2108885352387948968",
@@ -669,10 +1117,18 @@
       "likes": 2,
       "retweets": 0,
       "replies": 1,
-      "views": "66",
+      "views": "67",
       "url": "https://x.com/Lawinvesting/status/2108885352387948968",
       "keyword": "BMRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9707,
+      "sentiment_raw": {
+        "positive": 0.0014,
+        "neutral": 0.9707,
+        "negative": 0.0279
+      }
     },
     {
       "tweet_id": "2108882189270307229",
@@ -680,13 +1136,21 @@
       "author": "Baru lvl 2, belum",
       "username": "CFALEVEL99",
       "timestamp": "Sat Oct 10 11:27:49 +0000 2026",
-      "likes": 194,
-      "retweets": 20,
+      "likes": 213,
+      "retweets": 22,
       "replies": 5,
-      "views": "12538",
+      "views": "13395",
       "url": "https://x.com/CFALEVEL99/status/2108882189270307229",
       "keyword": "BMRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "positive",
+      "sentiment_score": 0.3402,
+      "sentiment_raw": {
+        "positive": 0.3402,
+        "neutral": 0.3278,
+        "negative": 0.332
+      }
     },
     {
       "tweet_id": "2108847220351222212",
@@ -700,7 +1164,15 @@
       "views": "97",
       "url": "https://x.com/dhuka_it77/status/2108847220351222212",
       "keyword": "BMRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "negative",
+      "sentiment_score": 0.9907,
+      "sentiment_raw": {
+        "positive": 0.0007,
+        "neutral": 0.0085,
+        "negative": 0.9907
+      }
     },
     {
       "tweet_id": "2108793070380621897",
@@ -714,7 +1186,15 @@
       "views": "29",
       "url": "https://x.com/malodabivictor/status/2108793070380621897",
       "keyword": "BMRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "positive",
+      "sentiment_score": 0.9929,
+      "sentiment_raw": {
+        "positive": 0.9929,
+        "neutral": 0.0057,
+        "negative": 0.0014
+      }
     },
     {
       "tweet_id": "2108696779479031895",
@@ -725,10 +1205,18 @@
       "likes": 45,
       "retweets": 4,
       "replies": 0,
-      "views": "2283",
+      "views": "2284",
       "url": "https://x.com/aldotjahjadi8/status/2108696779479031895",
       "keyword": "BMRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9514,
+      "sentiment_raw": {
+        "positive": 0.0395,
+        "neutral": 0.9514,
+        "negative": 0.0091
+      }
     },
     {
       "tweet_id": "2108563992860144047",
@@ -739,10 +1227,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "70",
+      "views": "71",
       "url": "https://x.com/Oganemochii/status/2108563992860144047",
       "keyword": "BMRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "negative",
+      "sentiment_score": 0.9959,
+      "sentiment_raw": {
+        "positive": 0.0013,
+        "neutral": 0.0028,
+        "negative": 0.9959
+      }
     },
     {
       "tweet_id": "2108513964699312254",
@@ -756,7 +1252,15 @@
       "views": "104",
       "url": "https://x.com/belijualsaham/status/2108513964699312254",
       "keyword": "BMRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8947,
+      "sentiment_raw": {
+        "positive": 0.0815,
+        "neutral": 0.8947,
+        "negative": 0.0238
+      }
     },
     {
       "tweet_id": "2108499821057486904",
@@ -770,7 +1274,15 @@
       "views": "37",
       "url": "https://x.com/bluish_store/status/2108499821057486904",
       "keyword": "BMRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9798,
+      "sentiment_raw": {
+        "positive": 0.0014,
+        "neutral": 0.9798,
+        "negative": 0.0188
+      }
     },
     {
       "tweet_id": "2108488159118147599",
@@ -784,7 +1296,15 @@
       "views": "69",
       "url": "https://x.com/Ngab_zz/status/2108488159118147599",
       "keyword": "BMRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "negative",
+      "sentiment_score": 0.8827,
+      "sentiment_raw": {
+        "positive": 0.0148,
+        "neutral": 0.1025,
+        "negative": 0.8827
+      }
     },
     {
       "tweet_id": "2108469346825810047",
@@ -798,7 +1318,15 @@
       "views": "77",
       "url": "https://x.com/kisi_sekuritas/status/2108469346825810047",
       "keyword": "BMRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9881,
+      "sentiment_raw": {
+        "positive": 0.0089,
+        "neutral": 0.9881,
+        "negative": 0.003
+      }
     },
     {
       "tweet_id": "2108377468331859985",
@@ -809,10 +1337,18 @@
       "likes": 2,
       "retweets": 0,
       "replies": 0,
-      "views": "243",
+      "views": "244",
       "url": "https://x.com/SUNAIVATKOHOKOK/status/2108377468331859985",
       "keyword": "BMRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9835,
+      "sentiment_raw": {
+        "positive": 0.012,
+        "neutral": 0.9835,
+        "negative": 0.0045
+      }
     },
     {
       "tweet_id": "2108210148758143100",
@@ -826,7 +1362,15 @@
       "views": "2256",
       "url": "https://x.com/Sipitungscbd/status/2108210148758143100",
       "keyword": "BMRI",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "negative",
+      "sentiment_score": 0.5547,
+      "sentiment_raw": {
+        "positive": 0.0076,
+        "neutral": 0.4377,
+        "negative": 0.5547
+      }
     },
     {
       "tweet_id": "2108178229353939399",
@@ -837,10 +1381,18 @@
       "likes": 3,
       "retweets": 0,
       "replies": 1,
-      "views": "264",
+      "views": "265",
       "url": "https://x.com/fableBUThaiku/status/2108178229353939399",
       "keyword": "BMRI",
-      "source": null
+      "source": null,
+      "language": "en",
+      "sentiment": "neutral",
+      "sentiment_score": 0.7893,
+      "sentiment_raw": {
+        "negative": 0.1738,
+        "neutral": 0.7893,
+        "positive": 0.0369
+      }
     },
     {
       "tweet_id": "2109062846831325583",
@@ -851,10 +1403,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "63",
+      "views": "64",
       "url": "https://x.com/jo_maenSaham/status/2109062846831325583",
       "keyword": "TLKM",
-      "source": null
+      "source": null,
+      "language": "en",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8481,
+      "sentiment_raw": {
+        "negative": 0.0957,
+        "neutral": 0.8481,
+        "positive": 0.0562
+      }
     },
     {
       "tweet_id": "2108884592879096021",
@@ -865,10 +1425,18 @@
       "likes": 17,
       "retweets": 1,
       "replies": 1,
-      "views": "1571",
+      "views": "1578",
       "url": "https://x.com/bandarmetrics/status/2108884592879096021",
       "keyword": "TLKM",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.994,
+      "sentiment_raw": {
+        "positive": 0.0039,
+        "neutral": 0.994,
+        "negative": 0.0021
+      }
     },
     {
       "tweet_id": "2108725512994717916",
@@ -879,10 +1447,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "93",
+      "views": "94",
       "url": "https://x.com/jo_maenSaham/status/2108725512994717916",
       "keyword": "TLKM",
-      "source": null
+      "source": null,
+      "language": "en",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8494,
+      "sentiment_raw": {
+        "negative": 0.0699,
+        "neutral": 0.8494,
+        "positive": 0.0807
+      }
     },
     {
       "tweet_id": "2108581299300777998",
@@ -896,7 +1472,15 @@
       "views": "133",
       "url": "https://x.com/jo_maenSaham/status/2108581299300777998",
       "keyword": "TLKM",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8861,
+      "sentiment_raw": {
+        "positive": 0.0225,
+        "neutral": 0.8861,
+        "negative": 0.0915
+      }
     },
     {
       "tweet_id": "2108530854217818117",
@@ -907,10 +1491,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "98",
+      "views": "99",
       "url": "https://x.com/jo_maenSaham/status/2108530854217818117",
       "keyword": "TLKM",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.979,
+      "sentiment_raw": {
+        "positive": 0.0177,
+        "neutral": 0.979,
+        "negative": 0.0033
+      }
     },
     {
       "tweet_id": "2108490242848424295",
@@ -924,7 +1516,15 @@
       "views": "97",
       "url": "https://x.com/jo_maenSaham/status/2108490242848424295",
       "keyword": "TLKM",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9888,
+      "sentiment_raw": {
+        "positive": 0.0062,
+        "neutral": 0.9888,
+        "negative": 0.005
+      }
     },
     {
       "tweet_id": "2108488159118147599",
@@ -938,7 +1538,15 @@
       "views": "69",
       "url": "https://x.com/Ngab_zz/status/2108488159118147599",
       "keyword": "TLKM",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "negative",
+      "sentiment_score": 0.8827,
+      "sentiment_raw": {
+        "positive": 0.0148,
+        "neutral": 0.1025,
+        "negative": 0.8827
+      }
     },
     {
       "tweet_id": "2108463545985929507",
@@ -952,7 +1560,15 @@
       "views": "542",
       "url": "https://x.com/idx_channel/status/2108463545985929507",
       "keyword": "TLKM",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9886,
+      "sentiment_raw": {
+        "positive": 0.008,
+        "neutral": 0.9886,
+        "negative": 0.0034
+      }
     },
     {
       "tweet_id": "2108414827337298238",
@@ -966,7 +1582,15 @@
       "views": "59",
       "url": "https://x.com/officialbitv/status/2108414827337298238",
       "keyword": "TLKM",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9934,
+      "sentiment_raw": {
+        "positive": 0.0054,
+        "neutral": 0.9934,
+        "negative": 0.0013
+      }
     },
     {
       "tweet_id": "2108410823244910916",
@@ -977,10 +1601,18 @@
       "likes": 30,
       "retweets": 1,
       "replies": 4,
-      "views": "2397",
+      "views": "2403",
       "url": "https://x.com/Ddarwin889/status/2108410823244910916",
       "keyword": "TLKM",
-      "source": null
+      "source": null,
+      "language": "en",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8864,
+      "sentiment_raw": {
+        "negative": 0.073,
+        "neutral": 0.8864,
+        "positive": 0.0406
+      }
     },
     {
       "tweet_id": "2108377468331859985",
@@ -991,10 +1623,18 @@
       "likes": 2,
       "retweets": 0,
       "replies": 0,
-      "views": "243",
+      "views": "244",
       "url": "https://x.com/SUNAIVATKOHOKOK/status/2108377468331859985",
       "keyword": "TLKM",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9835,
+      "sentiment_raw": {
+        "positive": 0.012,
+        "neutral": 0.9835,
+        "negative": 0.0045
+      }
     },
     {
       "tweet_id": "2108353424928776203",
@@ -1008,7 +1648,15 @@
       "views": "78",
       "url": "https://x.com/papa_piyo/status/2108353424928776203",
       "keyword": "TLKM",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.6404,
+      "sentiment_raw": {
+        "positive": 0.3375,
+        "neutral": 0.6404,
+        "negative": 0.022
+      }
     },
     {
       "tweet_id": "2108346743851266536",
@@ -1016,13 +1664,21 @@
       "author": "Stathfin",
       "username": "Stathfin",
       "timestamp": "Fri Oct 09 00:00:09 +0000 2026",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 1,
-      "views": "24",
+      "views": "25",
       "url": "https://x.com/Stathfin/status/2108346743851266536",
       "keyword": "TLKM",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9807,
+      "sentiment_raw": {
+        "positive": 0.0098,
+        "neutral": 0.9807,
+        "negative": 0.0095
+      }
     },
     {
       "tweet_id": "2108320612087468351",
@@ -1036,7 +1692,15 @@
       "views": "124",
       "url": "https://x.com/jo_maenSaham/status/2108320612087468351",
       "keyword": "TLKM",
-      "source": null
+      "source": null,
+      "language": "en",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8856,
+      "sentiment_raw": {
+        "negative": 0.0496,
+        "neutral": 0.8856,
+        "positive": 0.0648
+      }
     },
     {
       "tweet_id": "2108316625028207046",
@@ -1050,7 +1714,15 @@
       "views": "135",
       "url": "https://x.com/jo_maenSaham/status/2108316625028207046",
       "keyword": "TLKM",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9914,
+      "sentiment_raw": {
+        "positive": 0.007,
+        "neutral": 0.9914,
+        "negative": 0.0016
+      }
     },
     {
       "tweet_id": "2108020509699191085",
@@ -1064,7 +1736,15 @@
       "views": "74",
       "url": "https://x.com/chamdan4/status/2108020509699191085",
       "keyword": "TLKM",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9943,
+      "sentiment_raw": {
+        "positive": 0.0049,
+        "neutral": 0.9943,
+        "negative": 0.0008
+      }
     },
     {
       "tweet_id": "2108009100672192562",
@@ -1075,10 +1755,18 @@
       "likes": 2,
       "retweets": 0,
       "replies": 1,
-      "views": "924",
+      "views": "925",
       "url": "https://x.com/TheEconopost/status/2108009100672192562",
       "keyword": "TLKM",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9961,
+      "sentiment_raw": {
+        "positive": 0.0035,
+        "neutral": 0.9961,
+        "negative": 0.0005
+      }
     },
     {
       "tweet_id": "2108008953473110313",
@@ -1092,7 +1780,15 @@
       "views": "638",
       "url": "https://x.com/phintasprofits/status/2108008953473110313",
       "keyword": "TLKM",
-      "source": null
+      "source": null,
+      "language": "en",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8959,
+      "sentiment_raw": {
+        "negative": 0.0728,
+        "neutral": 0.8959,
+        "positive": 0.0314
+      }
     },
     {
       "tweet_id": "2107874673451315224",
@@ -1106,7 +1802,15 @@
       "views": "186",
       "url": "https://x.com/jo_maenSaham/status/2107874673451315224",
       "keyword": "TLKM",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9846,
+      "sentiment_raw": {
+        "positive": 0.0099,
+        "neutral": 0.9846,
+        "negative": 0.0055
+      }
     },
     {
       "tweet_id": "2107850017843376623",
@@ -1120,7 +1824,37 @@
       "views": "48",
       "url": "https://x.com/stockteracer/status/2107850017843376623",
       "keyword": "TLKM",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9828,
+      "sentiment_raw": {
+        "positive": 0.0153,
+        "neutral": 0.9828,
+        "negative": 0.0019
+      }
+    },
+    {
+      "tweet_id": "2109189724577636664",
+      "text": "Danantara Tetap Masuk Pasar #Saham saat #IHSG Melemah, Ini Strategi Investasinya https://t.co/wzmtrdRS1r",
+      "author": "TRADING",
+      "username": "tradingans",
+      "timestamp": "Sun Oct 11 07:49:51 +0000 2026",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "views": "19",
+      "url": "https://x.com/tradingans/status/2109189724577636664",
+      "keyword": "IHSG",
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9968,
+      "sentiment_raw": {
+        "positive": 0.0026,
+        "neutral": 0.9968,
+        "negative": 0.0006
+      }
     },
     {
       "tweet_id": "2109161825669390773",
@@ -1128,13 +1862,21 @@
       "author": "Bandar Metrics",
       "username": "bandarmetrics",
       "timestamp": "Sun Oct 11 05:59:00 +0000 2026",
-      "likes": 1,
+      "likes": 2,
       "retweets": 0,
       "replies": 0,
-      "views": "620",
+      "views": "761",
       "url": "https://x.com/bandarmetrics/status/2109161825669390773",
       "keyword": "IHSG",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8856,
+      "sentiment_raw": {
+        "positive": 0.0643,
+        "neutral": 0.8856,
+        "negative": 0.0501
+      }
     },
     {
       "tweet_id": "2109161594219528424",
@@ -1145,10 +1887,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "6",
+      "views": "13",
       "url": "https://x.com/mieayamiya/status/2109161594219528424",
       "keyword": "IHSG",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9961,
+      "sentiment_raw": {
+        "positive": 0.0018,
+        "neutral": 0.9961,
+        "negative": 0.0021
+      }
     },
     {
       "tweet_id": "2109157158076162230",
@@ -1156,13 +1906,21 @@
       "author": "Fadhil",
       "username": "Fdhilonn",
       "timestamp": "Sun Oct 11 05:40:27 +0000 2026",
-      "likes": 77,
-      "retweets": 14,
-      "replies": 5,
-      "views": "3485",
+      "likes": 149,
+      "retweets": 27,
+      "replies": 6,
+      "views": "7266",
       "url": "https://x.com/Fdhilonn/status/2109157158076162230",
       "keyword": "IHSG",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "negative",
+      "sentiment_score": 0.573,
+      "sentiment_raw": {
+        "positive": 0.0223,
+        "neutral": 0.4047,
+        "negative": 0.573
+      }
     },
     {
       "tweet_id": "2109154171069018473",
@@ -1173,10 +1931,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 1,
-      "views": "4",
+      "views": "6",
       "url": "https://x.com/BuidlSomething/status/2109154171069018473",
       "keyword": "IHSG",
-      "source": null
+      "source": null,
+      "language": "en",
+      "sentiment": "neutral",
+      "sentiment_score": 0.7522,
+      "sentiment_raw": {
+        "negative": 0.0608,
+        "neutral": 0.7522,
+        "positive": 0.187
+      }
     },
     {
       "tweet_id": "2109147229617279041",
@@ -1187,10 +1953,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "95",
+      "views": "108",
       "url": "https://x.com/wansaramadhan/status/2109147229617279041",
       "keyword": "IHSG",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.905,
+      "sentiment_raw": {
+        "positive": 0.0811,
+        "neutral": 0.905,
+        "negative": 0.0139
+      }
     },
     {
       "tweet_id": "2109139948024815894",
@@ -1201,10 +1975,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "130",
+      "views": "156",
       "url": "https://x.com/TradingDiary2/status/2109139948024815894",
       "keyword": "IHSG",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.6567,
+      "sentiment_raw": {
+        "positive": 0.303,
+        "neutral": 0.6567,
+        "negative": 0.0403
+      }
     },
     {
       "tweet_id": "2109136676455088392",
@@ -1215,10 +1997,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "16",
+      "views": "19",
       "url": "https://x.com/88_gunn/status/2109136676455088392",
       "keyword": "IHSG",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.6434,
+      "sentiment_raw": {
+        "positive": 0.0367,
+        "neutral": 0.6434,
+        "negative": 0.3199
+      }
     },
     {
       "tweet_id": "2109119321062719599",
@@ -1229,10 +2019,18 @@
       "likes": 6,
       "retweets": 0,
       "replies": 0,
-      "views": "1267",
+      "views": "1409",
       "url": "https://x.com/bandarmetrics/status/2109119321062719599",
       "keyword": "IHSG",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9873,
+      "sentiment_raw": {
+        "positive": 0.0091,
+        "neutral": 0.9873,
+        "negative": 0.0035
+      }
     },
     {
       "tweet_id": "2109113399758221647",
@@ -1243,10 +2041,18 @@
       "likes": 1,
       "retweets": 0,
       "replies": 0,
-      "views": "39",
+      "views": "40",
       "url": "https://x.com/indeksIND/status/2109113399758221647",
       "keyword": "IHSG",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.982,
+      "sentiment_raw": {
+        "positive": 0.0141,
+        "neutral": 0.982,
+        "negative": 0.0039
+      }
     },
     {
       "tweet_id": "2109106895940427975",
@@ -1260,7 +2066,15 @@
       "views": "15",
       "url": "https://x.com/iqbalwfh/status/2109106895940427975",
       "keyword": "IHSG",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.4331,
+      "sentiment_raw": {
+        "positive": 0.1703,
+        "neutral": 0.4331,
+        "negative": 0.3966
+      }
     },
     {
       "tweet_id": "2109103711876526184",
@@ -1271,10 +2085,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 1,
-      "views": "63",
+      "views": "71",
       "url": "https://x.com/SaifuddinSay/status/2109103711876526184",
       "keyword": "IHSG",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "negative",
+      "sentiment_score": 0.9966,
+      "sentiment_raw": {
+        "positive": 0.0014,
+        "neutral": 0.002,
+        "negative": 0.9966
+      }
     },
     {
       "tweet_id": "2109097195526050192",
@@ -1285,10 +2107,18 @@
       "likes": 1,
       "retweets": 0,
       "replies": 0,
-      "views": "229",
+      "views": "242",
       "url": "https://x.com/tafra93/status/2109097195526050192",
       "keyword": "IHSG",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "negative",
+      "sentiment_score": 0.9921,
+      "sentiment_raw": {
+        "positive": 0.0008,
+        "neutral": 0.0072,
+        "negative": 0.9921
+      }
     },
     {
       "tweet_id": "2109091356815831142",
@@ -1299,10 +2129,18 @@
       "likes": 25,
       "retweets": 1,
       "replies": 1,
-      "views": "2306",
+      "views": "2434",
       "url": "https://x.com/LambeSahamjja/status/2109091356815831142",
       "keyword": "IHSG",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "negative",
+      "sentiment_score": 0.9759,
+      "sentiment_raw": {
+        "positive": 0.0096,
+        "neutral": 0.0145,
+        "negative": 0.9759
+      }
     },
     {
       "tweet_id": "2109090436321251546",
@@ -1313,10 +2151,18 @@
       "likes": 1,
       "retweets": 0,
       "replies": 0,
-      "views": "18",
+      "views": "21",
       "url": "https://x.com/Verooine_/status/2109090436321251546",
       "keyword": "IHSG",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "positive",
+      "sentiment_score": 0.9031,
+      "sentiment_raw": {
+        "positive": 0.9031,
+        "neutral": 0.0815,
+        "negative": 0.0155
+      }
     },
     {
       "tweet_id": "2109088201105367131",
@@ -1327,10 +2173,18 @@
       "likes": 1,
       "retweets": 0,
       "replies": 0,
-      "views": "254",
+      "views": "267",
       "url": "https://x.com/rzkawan/status/2109088201105367131",
       "keyword": "IHSG",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.756,
+      "sentiment_raw": {
+        "positive": 0.0167,
+        "neutral": 0.756,
+        "negative": 0.2272
+      }
     },
     {
       "tweet_id": "2109071932171882876",
@@ -1341,10 +2195,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "87",
+      "views": "90",
       "url": "https://x.com/aldotjahjadi8/status/2109071932171882876",
       "keyword": "IHSG",
-      "source": null
+      "source": null,
+      "language": "en",
+      "sentiment": "negative",
+      "sentiment_score": 0.4854,
+      "sentiment_raw": {
+        "negative": 0.4854,
+        "neutral": 0.4368,
+        "positive": 0.0778
+      }
     },
     {
       "tweet_id": "2109071785492975981",
@@ -1355,10 +2217,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 1,
-      "views": "461",
+      "views": "473",
       "url": "https://x.com/aldotjahjadi8/status/2109071785492975981",
       "keyword": "IHSG",
-      "source": null
+      "source": null,
+      "language": "en",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8244,
+      "sentiment_raw": {
+        "negative": 0.0078,
+        "neutral": 0.8244,
+        "positive": 0.1678
+      }
     },
     {
       "tweet_id": "2109006126184354241",
@@ -1369,10 +2239,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "19",
+      "views": "20",
       "url": "https://x.com/podteksid/status/2109006126184354241",
       "keyword": "IHSG",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9951,
+      "sentiment_raw": {
+        "positive": 0.0041,
+        "neutral": 0.9951,
+        "negative": 0.0008
+      }
     },
     {
       "tweet_id": "2108982533933436978",
@@ -1386,301 +2264,455 @@
       "views": "32",
       "url": "https://x.com/jinwooechoX/status/2108982533933436978",
       "keyword": "IHSG",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.7195,
+      "sentiment_raw": {
+        "positive": 0.2646,
+        "neutral": 0.7195,
+        "negative": 0.0159
+      }
     },
     {
-      "tweet_id": "2108973502829375881",
-      "text": "besok senin oi IHSG atau $IHSG (Index Harga Saham Gabungan) \n(I) AUTO membagikan dividen interim per saham RP. 72,52 atau RP. 349,5 Milyar\n(II) BUAH membagikan dividen interim tahun buku 2026 per saham RP. 10 atau RP. 20 Milyar \n(III) PBSA menyetujui rencana SS (stock split) 1:2 https://t.co/3wsY4QFf4L",
-      "author": "tompel😁",
-      "username": "Marlonsuckitcr1",
-      "timestamp": "Sat Oct 10 17:30:40 +0000 2026",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "views": "36",
-      "url": "https://x.com/Marlonsuckitcr1/status/2108973502829375881",
-      "keyword": "IHSG",
-      "source": null
-    },
-    {
-      "tweet_id": "2109177923852972132",
-      "text": "Seribu rupiah memang kelihatannya kecil, tapi kalau bisa hemat dari promo perjalanan tentu menyenangkan. Cek Gojek diGoPay mulai 1.000 dan pastikan ketentuan promonya, ya! https://t.co/G3GK96zXHC",
-      "author": "Mela pedro",
-      "username": "Melapedrosz",
-      "timestamp": "Sun Oct 11 07:02:58 +0000 2026",
+      "tweet_id": "2109192107290448299",
+      "text": "@birubayaa Jadi lebih 5 rupiah tuh wkwk",
+      "author": "tastestos",
+      "username": "tastes_tos",
+      "timestamp": "Sun Oct 11 07:59:19 +0000 2026",
       "likes": 0,
       "retweets": 0,
       "replies": 0,
       "views": "1",
-      "url": "https://x.com/Melapedrosz/status/2109177923852972132",
+      "url": "https://x.com/tastes_tos/status/2109192107290448299",
       "keyword": "rupiah",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.5238,
+      "sentiment_raw": {
+        "positive": 0.4377,
+        "neutral": 0.5238,
+        "negative": 0.0385
+      }
     },
     {
-      "tweet_id": "2109177709503111357",
-      "text": "@malaydesh_jaya @anwaribrahim Nak langgan tak bagi baru nak bayar guna rupiah tkpela simpan je la lubang Tu untuk orang lain😭😭",
-      "author": "Nialovely27",
-      "username": "ainsweet20",
-      "timestamp": "Sun Oct 11 07:02:07 +0000 2026",
+      "tweet_id": "2109191885524967507",
+      "text": "Ternyata pengalaman pesan Gojek bisa memberikan kejutan juga, tadi aku buka GoPay dan menemukan tarif cuma seribu rupiah, sekarang baru tahu Gojek DiGoPay Mulai 1000 https://t.co/t3BDlGmB8X",
+      "author": "indra",
+      "username": "indravcqb",
+      "timestamp": "Sun Oct 11 07:58:27 +0000 2026",
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "7",
-      "url": "https://x.com/ainsweet20/status/2109177709503111357",
+      "views": "3",
+      "url": "https://x.com/indravcqb/status/2109191885524967507",
       "keyword": "rupiah",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8188,
+      "sentiment_raw": {
+        "positive": 0.1713,
+        "neutral": 0.8188,
+        "negative": 0.0099
+      }
     },
     {
-      "tweet_id": "2109177656440971348",
-      "text": "makin banyak aplikasi yang punya fitur praktis, tapi kadang kita belum sempat mengeksplor semuanya karena udah terbiasa pakai cara sama. gue baru tau bisa pesan gojek dari gopay &amp; cek promo perjalanan mulai seribu rupiah. Gojek DiGoPay Mulai 1000 bikin gue sadar buat cara hemat https://t.co/B95deg6VJC",
-      "author": "yaya2k",
-      "username": "yayayaya2k",
-      "timestamp": "Sun Oct 11 07:01:54 +0000 2026",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "views": "1",
-      "url": "https://x.com/yayayaya2k/status/2109177656440971348",
-      "keyword": "rupiah",
-      "source": null
-    },
-    {
-      "tweet_id": "2109177389687447701",
-      "text": "Imagine you're a Buzzer WNI, just got paid 500 rupiah for spreading hate &amp; false stories by your government but that money you could only can afford rokok kretek. https://t.co/tApofz32EB",
-      "author": "Heisei 𝕏",
-      "username": "danialazlann",
-      "timestamp": "Sun Oct 11 07:00:50 +0000 2026",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "views": "7",
-      "url": "https://x.com/danialazlann/status/2109177389687447701",
-      "keyword": "rupiah",
-      "source": null
-    },
-    {
-      "tweet_id": "2109177250356801597",
-      "text": "gue baru sadar kalau sebelum pesan kendaraan, ternyata ada baiknya cek juga pilihan pemesanan dan promo yang tersedia. contohnya pesan gojek lewat gopay yang bisa menawarkan harga mulai seribu rupiah. Gojek DiGoPay Mulai 1000 lumayan banget buat nambah referensi cara hemat😁 https://t.co/N6fnGKVpJ6",
-      "author": "Bataniah 105",
-      "username": "batan105",
-      "timestamp": "Sun Oct 11 07:00:17 +0000 2026",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "views": "5",
-      "url": "https://x.com/batan105/status/2109177250356801597",
-      "keyword": "rupiah",
-      "source": null
-    },
-    {
-      "tweet_id": "2109177043162464431",
-      "text": "definisi rezeki anak kos tuh nemu promo pas lagi pengen keluar wkwk. baru tau pesen gojek di gopay ada penawaran mulai seribu rupiah Gojek DiGoPay Mulai 1.000 https://t.co/8sdgqk58DB",
-      "author": "bajaklautkuuu",
-      "username": "bajaklautgood",
-      "timestamp": "Sun Oct 11 06:59:28 +0000 2026",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "views": "2",
-      "url": "https://x.com/bajaklautgood/status/2109177043162464431",
-      "keyword": "rupiah",
-      "source": null
-    },
-    {
-      "tweet_id": "2109176978972840427",
-      "text": "kaget pas mau pesen gojek dari cibubur junction ke tsm cibubur kok harganya cuma seribu rupiah, ternyata beneran Gojek diGoPay mulai 1.000 doang https://t.co/Mgz7Vz6lOy",
-      "author": "coco",
-      "username": "cocopiek",
-      "timestamp": "Sun Oct 11 06:59:13 +0000 2026",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "views": "2",
-      "url": "https://x.com/cocopiek/status/2109176978972840427",
-      "keyword": "rupiah",
-      "source": null
-    },
-    {
-      "tweet_id": "2109176905274687514",
-      "text": "lagi mau ketemu temen, tapi sebelum pesan kendaraan gue sempetin cek promo dulu karena lumayan bisa menghemat ongkos. ternyata ada pilihan pesan gojek lewat aplikasi gopay dan promo seribu rupiah. Gojek DiGoPay Mulai 1000 menarik banget buat diperhatikan sekarang loh guys🥰 https://t.co/qASUk7goAn",
-      "author": "mimi2k",
-      "username": "mimimimi2k",
-      "timestamp": "Sun Oct 11 06:58:55 +0000 2026",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "views": "7",
-      "url": "https://x.com/mimimimi2k/status/2109176905274687514",
-      "keyword": "rupiah",
-      "source": null
-    },
-    {
-      "tweet_id": "2109176202607145039",
-      "text": "Tips hemat hari ini yaitu sebelum pesen Gojek, coba cek dulu aplikasi GoPay kalian 👀 tadi nyobain dan ternyata ada promo yang bikin ongkosnya cuma seribu rupiah WKWKWK. Auto senyum sepanjang jalan sih kalau begini 😭 Gojek diGoPay mulai 1.000 ~ https://t.co/ltzCfV55xP",
-      "author": "icecream",
-      "username": "cakecupcake97",
-      "timestamp": "Sun Oct 11 06:56:07 +0000 2026",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "views": "1",
-      "url": "https://x.com/cakecupcake97/status/2109176202607145039",
-      "keyword": "rupiah",
-      "source": null
-    },
-    {
-      "tweet_id": "2109176045291340115",
-      "text": "@heniunique Misal jika sebulan menghabiskan 10 juta rupiah untuk treatment kuda, pada era lalu cost tersebut hanya untuk kegiatas yang terbatas yang mungkin sebulan ga ada 10 kali, sedangkan di era sekarang minimal ada 25 hari bertugas dengan cost yang sama sama 10 juta. Lebih efisien mana?",
-      "author": "The poacher",
-      "username": "Th13103Id",
-      "timestamp": "Sun Oct 11 06:55:30 +0000 2026",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "views": "2",
-      "url": "https://x.com/Th13103Id/status/2109176045291340115",
-      "keyword": "rupiah",
-      "source": null
-    },
-    {
-      "tweet_id": "2109175873253396568",
-      "text": "kadang kita fokus cari diskon makanan, padahal biaya perjalanan juga bisa jadi bagian pengeluaran yang lumayan kalau sering pergi makanya gue tertarik cek promo pesan gojek lewat gopay yang bisa mulai seribu rupiah sesuai ketentuan. Gojek DiGoPay Mulai 1000 jangan sampai kelewat https://t.co/mtEWw3fykA",
-      "author": "istiqomah2k",
-      "username": "istiqomah2k",
-      "timestamp": "Sun Oct 11 06:54:49 +0000 2026",
+      "tweet_id": "2109191711264329956",
+      "text": "creditsnya mahal bgt sih salah lu rupiah lemah wo @prabowo",
+      "author": "kiruaah.",
+      "username": "gachiakuts",
+      "timestamp": "Sun Oct 11 07:57:45 +0000 2026",
       "likes": 0,
       "retweets": 0,
       "replies": 0,
       "views": "6",
-      "url": "https://x.com/istiqomah2k/status/2109175873253396568",
+      "url": "https://x.com/gachiakuts/status/2109191711264329956",
       "keyword": "rupiah",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "negative",
+      "sentiment_score": 0.998,
+      "sentiment_raw": {
+        "positive": 0.0009,
+        "neutral": 0.0011,
+        "negative": 0.998
+      }
     },
     {
-      "tweet_id": "2109175390279467397",
-      "text": "anak nongkrong pasti ngerti rasanya pengen ikut kumpul tapi tetap mengatur pengeluaran biar nggak boncos sebelum akhir bulan. gue baru nemu info pesan gojek lewat gopay dengan promo mulai seribu rupiah, jadi pengen langsung cek. Gojek DiGoPay Mulai 1000 siapa tau bisa bikin hemat https://t.co/0KZWJFMU8I",
-      "author": "udin2ribu",
-      "username": "udin2ribu",
-      "timestamp": "Sun Oct 11 06:52:54 +0000 2026",
+      "tweet_id": "2109191561565421669",
+      "text": "buka aplikasi GoPay dan langsung kaget lihat harga seribu rupiah, ternyata Gojek DiGoPay Mulai 1000 doang coba https://t.co/P7elcGNoXR",
+      "author": "likes🍩",
+      "username": "MglSundari84725",
+      "timestamp": "Sun Oct 11 07:57:09 +0000 2026",
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "4",
-      "url": "https://x.com/udin2ribu/status/2109175390279467397",
+      "views": "2",
+      "url": "https://x.com/MglSundari84725/status/2109191561565421669",
       "keyword": "rupiah",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9549,
+      "sentiment_raw": {
+        "positive": 0.0046,
+        "neutral": 0.9549,
+        "negative": 0.0405
+      }
     },
     {
-      "tweet_id": "2109175363196584436",
-      "text": "buat yang tiap hari suka naik gojek, coba cek pemesanan lewat aplikasi gopay deh. ada promo mulai 1.000 rupiah yang bisa bikin perjalanan lebih hemat ✨ Gojek DiGoPay Mulai 1000",
-      "author": "Cair",
-      "username": "kahairaa",
-      "timestamp": "Sun Oct 11 06:52:47 +0000 2026",
+      "tweet_id": "2109190952481161244",
+      "text": "@Afi169781985925 Ramainya orang kaya di Indo. Bagaimana sukatan kekayaan? Bergaji 20jt Rupiah ya? Hahahahahahahaahh",
+      "author": "Colorwolf 🐺",
+      "username": "maxsastro",
+      "timestamp": "Sun Oct 11 07:54:44 +0000 2026",
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "4",
-      "url": "https://x.com/kahairaa/status/2109175363196584436",
+      "views": "2",
+      "url": "https://x.com/maxsastro/status/2109190952481161244",
       "keyword": "rupiah",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "negative",
+      "sentiment_score": 0.9053,
+      "sentiment_raw": {
+        "positive": 0.076,
+        "neutral": 0.0187,
+        "negative": 0.9053
+      }
     },
     {
-      "tweet_id": "2109175253717205413",
-      "text": "info penting buat yg lagi ngiritt, nih ada Gojek DiGoPay Mulai 1000 langsung aja cobain pesen gojek lewat app gopay, bayarnya cuma seribu rupiah doang https://t.co/VJ3592HLL3",
-      "author": "gheisazanina",
-      "username": "gheisazanina",
-      "timestamp": "Sun Oct 11 06:52:21 +0000 2026",
+      "tweet_id": "2109190922835759425",
+      "text": "Sebanyak 800 UMKM di Gadingsari, Bantul, disebut menghasilkan perputaran uang hingga miliaran rupiah per bulan.\n\nAktivitas usaha warga ini menjadi penggerak ekonomi lokal.\n\n#UMKM #Bantul #Ekonomi\n\nBaca selengkapnya di Yogyapos: https://t.co/4gaRapneRn",
+      "author": "Yogyapos",
+      "username": "Yogyapos",
+      "timestamp": "Sun Oct 11 07:54:37 +0000 2026",
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "3",
-      "url": "https://x.com/gheisazanina/status/2109175253717205413",
+      "views": "2",
+      "url": "https://x.com/Yogyapos/status/2109190922835759425",
       "keyword": "rupiah",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9739,
+      "sentiment_raw": {
+        "positive": 0.0247,
+        "neutral": 0.9739,
+        "negative": 0.0014
+      }
     },
     {
-      "tweet_id": "2109175240547041505",
-      "text": "baru ngeh sekarang pesen gojek bisa langsung lewat gopay, praktis banget buat yang mau bepergian. apalagi ada promo mulai seribu rupiah nih Gojek DiGoPay Mulai 1000",
-      "author": "Sonieho",
-      "username": "Sonraa0",
-      "timestamp": "Sun Oct 11 06:52:18 +0000 2026",
+      "tweet_id": "2109190202078142466",
+      "text": "Tadi pas mau pesan Gojek, aku coba buka aplikasi GoPay dan langsung kaget lihat harga seribu rupiah, ternyata Gojek DiGoPay Mulai 1000 layak banget buat dicek. https://t.co/FcJx5Si2md",
+      "author": "masimm",
+      "username": "masimm457",
+      "timestamp": "Sun Oct 11 07:51:45 +0000 2026",
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "4",
-      "url": "https://x.com/Sonraa0/status/2109175240547041505",
+      "views": "8",
+      "url": "https://x.com/masimm457/status/2109190202078142466",
       "keyword": "rupiah",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "positive",
+      "sentiment_score": 0.5868,
+      "sentiment_raw": {
+        "positive": 0.5868,
+        "neutral": 0.4033,
+        "negative": 0.0099
+      }
     },
     {
-      "tweet_id": "2109175178211303586",
-      "text": "ternyata ada cara lain buat pesen Gojek, langsung aja lewat aplikasi GoPay. tadi baru tau kalau harganya bisa mulai dari seribu rupiah, lumayan banget buat ongkos jalan 😭 Gojek DiGoPay Mulai 1000",
-      "author": "Crisbiran",
-      "username": "Crisbiran",
-      "timestamp": "Sun Oct 11 06:52:03 +0000 2026",
+      "tweet_id": "2109189472554459150",
+      "text": "Info hemat kayak gini rasanya sayang kalau cuma disimpan sendiri. Gw tadi udah coba pesan Gojek lewat GoPay dengan pembayaran seribu rupiah, ternyata Gojek DiGoPay Mulai 1000 https://t.co/xfFR0Xb0xA",
+      "author": "tya",
+      "username": "empritya",
+      "timestamp": "Sun Oct 11 07:48:51 +0000 2026",
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "3",
-      "url": "https://x.com/Crisbiran/status/2109175178211303586",
+      "views": "9",
+      "url": "https://x.com/empritya/status/2109189472554459150",
       "keyword": "rupiah",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8386,
+      "sentiment_raw": {
+        "positive": 0.1534,
+        "neutral": 0.8386,
+        "negative": 0.008
+      }
     },
     {
-      "tweet_id": "2109175142492643509",
-      "text": "akhir bulan waktunya makin selektif ngeluarin uang wkwk, untung ada promo pesen Gojek lewat GoPay mulai seribu rupiah. Gojek DiGoPay Mulai 1000 cocok buat yang lagi ngirit. https://t.co/dfnINQTdjr",
-      "author": "Pwratiwii",
-      "username": "pwratiwii",
-      "timestamp": "Sun Oct 11 06:51:55 +0000 2026",
+      "tweet_id": "2109189257273163925",
+      "text": "Gojek is trending for wallet promos starting at 1000 rupiah, and it's a reminder:\n\npeople don't switch payment apps for \"better UX\"\n\nthey switch for a small discount and stay because they got used to it\n\nwhat made you switch last time?",
+      "author": "Humayun",
+      "username": "humayun_x",
+      "timestamp": "Sun Oct 11 07:48:00 +0000 2026",
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "4",
-      "url": "https://x.com/pwratiwii/status/2109175142492643509",
+      "views": null,
+      "url": "https://x.com/humayun_x/status/2109189257273163925",
       "keyword": "rupiah",
-      "source": null
+      "source": null,
+      "language": "en",
+      "sentiment": "neutral",
+      "sentiment_score": 0.7153,
+      "sentiment_raw": {
+        "negative": 0.151,
+        "neutral": 0.7153,
+        "positive": 0.1337
+      }
     },
     {
-      "tweet_id": "2109175139434906098",
-      "text": "ternyata ada promo begini di gopay, bisa pesen gojek langsung dari aplikasinya dengan harga mulai seribu rupiah. baru tau sekarang, kalian udah tau belum Gojek DiGoPay Mulai 1.000 https://t.co/zdIrDQbkE6",
-      "author": "Hi,,,Its Me Citt 🌹",
-      "username": "HiItsMeCitt",
-      "timestamp": "Sun Oct 11 06:51:54 +0000 2026",
+      "tweet_id": "2109189238939951270",
+      "text": "@birubayaa Pernah belanja di minimarket trs bayar pake qris, totalnya tuh ada ekor 500 rupiah tp aku gk liat jd kurang. Pas udah payment aku liat ulang di monitor taunya kurang, aku bilang ke kasirnya \"kak, ini 500 rupiahnya aku cash aja ya.\"\nMales buka qris lagi 😭 untung boleh",
+      "author": "🪶dith | Neuvi Deyi, myistri 🧋🕯",
+      "username": "kimia_theater",
+      "timestamp": "Sun Oct 11 07:47:56 +0000 2026",
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "4",
-      "url": "https://x.com/HiItsMeCitt/status/2109175139434906098",
+      "views": "76",
+      "url": "https://x.com/kimia_theater/status/2109189238939951270",
       "keyword": "rupiah",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.4691,
+      "sentiment_raw": {
+        "positive": 0.0999,
+        "neutral": 0.4691,
+        "negative": 0.431
+      }
     },
     {
-      "tweet_id": "2109174957750227346",
-      "text": "Excited banget waktu tau bisa  pesan gojek dari gopay dengan promo  seribu rupiah. Gojek DiGoPay Mulai 1000 jangan lupa cek gaes https://t.co/pzCjCpfYak",
-      "author": "desiryn90",
-      "username": "desiryn9091",
-      "timestamp": "Sun Oct 11 06:51:11 +0000 2026",
+      "tweet_id": "2109189031544418311",
+      "text": "Kesalahan 3 : mengira harga di label itu harga sebenarnya.\nTimothy Ronald menemukan konsep opportunity cost dari buku ekonomi. Setiap rupiah yang lu pakai hari ini kehilangan peluang untuk tumbuh.\nContohnya : BMW seharga Rp1 miliar.",
+      "author": "Vespamatic Crypto",
+      "username": "vespamatic96",
+      "timestamp": "Sun Oct 11 07:47:06 +0000 2026",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "views": "16",
+      "url": "https://x.com/vespamatic96/status/2109189031544418311",
+      "keyword": "rupiah",
+      "source": null,
+      "language": "id",
+      "sentiment": "negative",
+      "sentiment_score": 0.8438,
+      "sentiment_raw": {
+        "positive": 0.0045,
+        "neutral": 0.1516,
+        "negative": 0.8438
+      }
+    },
+    {
+      "tweet_id": "2109188651989250252",
+      "text": "@ainsweet20 3 juta rupiah berapa ringgit eh",
+      "author": "Fendi #RobohKuilHaram",
+      "username": "BendiTheBagak",
+      "timestamp": "Sun Oct 11 07:45:36 +0000 2026",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "views": "48",
+      "url": "https://x.com/BendiTheBagak/status/2109188651989250252",
+      "keyword": "rupiah",
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.4965,
+      "sentiment_raw": {
+        "positive": 0.0133,
+        "neutral": 0.4965,
+        "negative": 0.4902
+      }
+    },
+    {
+      "tweet_id": "2109188154628379051",
+      "text": "@Jeotnghan *kasih 1 rupiah*",
+      "author": "Jeonghan.",
+      "username": "xjeonghani",
+      "timestamp": "Sun Oct 11 07:43:37 +0000 2026",
       "likes": 0,
       "retweets": 0,
       "replies": 0,
       "views": "5",
-      "url": "https://x.com/desiryn9091/status/2109174957750227346",
+      "url": "https://x.com/xjeonghani/status/2109188154628379051",
       "keyword": "rupiah",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9595,
+      "sentiment_raw": {
+        "positive": 0.0136,
+        "neutral": 0.9595,
+        "negative": 0.0269
+      }
     },
     {
-      "tweet_id": "2109174683665150273",
-      "text": "dompet udah mulai menipis tapi masih harus ke mana-mana 😔 untung nemu info kalau pesen Gojek diGoPay mulai 1.000 rupiah aja. lumayan banget buat pejuang tanggal tua, cobain deh guys! https://t.co/Obte6BoWrI",
-      "author": "nanadobby",
-      "username": "BluNaa000029",
-      "timestamp": "Sun Oct 11 06:50:05 +0000 2026",
+      "tweet_id": "2109188067429134762",
+      "text": "@FEBIADL emakku sng dituku capit, irus dan yang 0 rupiah lainnya 😌",
+      "author": "Elfhëimr",
+      "username": "centanghitam",
+      "timestamp": "Sun Oct 11 07:43:16 +0000 2026",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "views": "9",
+      "url": "https://x.com/centanghitam/status/2109188067429134762",
+      "keyword": "rupiah",
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9748,
+      "sentiment_raw": {
+        "positive": 0.0133,
+        "neutral": 0.9748,
+        "negative": 0.012
+      }
+    },
+    {
+      "tweet_id": "2109187605191709001",
+      "text": "@jarjirjur153702 Gaji ayah 20 juta rupiah je? 🤭",
+      "author": "missy",
+      "username": "missy5394977216",
+      "timestamp": "Sun Oct 11 07:41:26 +0000 2026",
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "3",
-      "url": "https://x.com/BluNaa000029/status/2109174683665150273",
+      "views": "1",
+      "url": "https://x.com/missy5394977216/status/2109187605191709001",
       "keyword": "rupiah",
-      "source": null
+      "source": null,
+      "language": "other",
+      "sentiment": "neutral",
+      "sentiment_score": 0.985,
+      "sentiment_raw": {
+        "positive": 0.0033,
+        "neutral": 0.985,
+        "negative": 0.0117
+      }
+    },
+    {
+      "tweet_id": "2109186348079005854",
+      "text": "Pasar Emas Masuk Zona Panas\n\n#saham #emas #rupiah #bitcoin #komoditas\n\nhttps://t.co/rJ6MizGyTe",
+      "author": "Investor Daily",
+      "username": "InvestorID",
+      "timestamp": "Sun Oct 11 07:36:26 +0000 2026",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "245",
+      "url": "https://x.com/InvestorID/status/2109186348079005854",
+      "keyword": "rupiah",
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9959,
+      "sentiment_raw": {
+        "positive": 0.0017,
+        "neutral": 0.9959,
+        "negative": 0.0024
+      }
+    },
+    {
+      "tweet_id": "2109186243762540625",
+      "text": "Pengembalian aset dan kekayaan negara bernilai triliunan rupiah diapresiasi oleh Presiden Prabowo.\n#2TahunPrabowoGibran #SatgasPKH #AsetBangsa #KekayaanNegara #IndonesiaMaju https://t.co/uuJPqyfQdY",
+      "author": "Rojan Honki",
+      "username": "rojan_honki",
+      "timestamp": "Sun Oct 11 07:36:01 +0000 2026",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "5",
+      "url": "https://x.com/rojan_honki/status/2109186243762540625",
+      "keyword": "rupiah",
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9875,
+      "sentiment_raw": {
+        "positive": 0.0114,
+        "neutral": 0.9875,
+        "negative": 0.0011
+      }
+    },
+    {
+      "tweet_id": "2109185465245131212",
+      "text": "Harta senilai hampir satu triliun rupiah dalam tiga brankas di properti Febrie Adriansyah, puluhan kali lipat lebih banyak daripada aset Rp18 miliar yang tercantum di laporan harta kekayaan.\n#MetroThisWeek MENYIBAK MISTERI TIMBUNAN HARTA FEBRIE, Minggu (11/10) pukul 19.30 WIB. https://t.co/e32wVN0VcE",
+      "author": "METRO TV",
+      "username": "Metro_TV",
+      "timestamp": "Sun Oct 11 07:32:56 +0000 2026",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "690",
+      "url": "https://x.com/Metro_TV/status/2109185465245131212",
+      "keyword": "rupiah",
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9937,
+      "sentiment_raw": {
+        "positive": 0.0031,
+        "neutral": 0.9937,
+        "negative": 0.0032
+      }
+    },
+    {
+      "tweet_id": "2109184994170335696",
+      "text": "@dddounie gajihnya bukan rupiah (no hate)😭🙏",
+      "author": "jell, s.kom⋆˚",
+      "username": "flcacid",
+      "timestamp": "Sun Oct 11 07:31:04 +0000 2026",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "5",
+      "url": "https://x.com/flcacid/status/2109184994170335696",
+      "keyword": "rupiah",
+      "source": null,
+      "language": "id",
+      "sentiment": "negative",
+      "sentiment_score": 0.9809,
+      "sentiment_raw": {
+        "positive": 0.0054,
+        "neutral": 0.0137,
+        "negative": 0.9809
+      }
+    },
+    {
+      "tweet_id": "2109184907012698354",
+      "text": "@simaymaysi pejuang rupiah 😭",
+      "author": "🐈‍⬛",
+      "username": "lustff0rlife",
+      "timestamp": "Sun Oct 11 07:30:43 +0000 2026",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "views": "14",
+      "url": "https://x.com/lustff0rlife/status/2109184907012698354",
+      "keyword": "rupiah",
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.7746,
+      "sentiment_raw": {
+        "positive": 0.1879,
+        "neutral": 0.7746,
+        "negative": 0.0375
+      }
     },
     {
       "tweet_id": "2109162080926306809",
@@ -1691,10 +2723,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "223",
+      "views": "253",
       "url": "https://x.com/idx_channel/status/2109162080926306809",
       "keyword": "IDX saham",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9111,
+      "sentiment_raw": {
+        "positive": 0.076,
+        "neutral": 0.9111,
+        "negative": 0.0129
+      }
     },
     {
       "tweet_id": "2109124332828143803",
@@ -1705,10 +2745,18 @@
       "likes": 1,
       "retweets": 0,
       "replies": 0,
-      "views": "376",
+      "views": "420",
       "url": "https://x.com/idx_channel/status/2109124332828143803",
       "keyword": "IDX saham",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9592,
+      "sentiment_raw": {
+        "positive": 0.0277,
+        "neutral": 0.9592,
+        "negative": 0.0131
+      }
     },
     {
       "tweet_id": "2108829665653825958",
@@ -1717,12 +2765,20 @@
       "username": "idx_channel",
       "timestamp": "Sat Oct 10 07:59:07 +0000 2026",
       "likes": 4,
-      "retweets": 1,
+      "retweets": 2,
       "replies": 0,
-      "views": "728",
+      "views": "737",
       "url": "https://x.com/idx_channel/status/2108829665653825958",
       "keyword": "IDX saham",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8867,
+      "sentiment_raw": {
+        "positive": 0.1068,
+        "neutral": 0.8867,
+        "negative": 0.0065
+      }
     },
     {
       "tweet_id": "2108799695728308282",
@@ -1733,10 +2789,18 @@
       "likes": 1,
       "retweets": 0,
       "replies": 0,
-      "views": "603",
+      "views": "607",
       "url": "https://x.com/idx_channel/status/2108799695728308282",
       "keyword": "IDX saham",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "positive",
+      "sentiment_score": 0.6104,
+      "sentiment_raw": {
+        "positive": 0.6104,
+        "neutral": 0.3646,
+        "negative": 0.0251
+      }
     },
     {
       "tweet_id": "2108567260868854238",
@@ -1747,10 +2811,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "203",
+      "views": "204",
       "url": "https://x.com/siransel24/status/2108567260868854238",
       "keyword": "IDX saham",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8213,
+      "sentiment_raw": {
+        "positive": 0.0234,
+        "neutral": 0.8213,
+        "negative": 0.1553
+      }
     },
     {
       "tweet_id": "2108547139249004690",
@@ -1761,10 +2833,18 @@
       "likes": 0,
       "retweets": 1,
       "replies": 0,
-      "views": "1925",
+      "views": "1927",
       "url": "https://x.com/IDX_BEI/status/2108547139249004690",
       "keyword": "IDX saham",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9933,
+      "sentiment_raw": {
+        "positive": 0.0053,
+        "neutral": 0.9933,
+        "negative": 0.0015
+      }
     },
     {
       "tweet_id": "2108542998447288456",
@@ -1778,7 +2858,15 @@
       "views": "493",
       "url": "https://x.com/idx_channel/status/2108542998447288456",
       "keyword": "IDX saham",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9696,
+      "sentiment_raw": {
+        "positive": 0.0268,
+        "neutral": 0.9696,
+        "negative": 0.0036
+      }
     },
     {
       "tweet_id": "2108522321808089438",
@@ -1792,7 +2880,15 @@
       "views": "394",
       "url": "https://x.com/idx_channel/status/2108522321808089438",
       "keyword": "IDX saham",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9871,
+      "sentiment_raw": {
+        "positive": 0.0117,
+        "neutral": 0.9871,
+        "negative": 0.0013
+      }
     },
     {
       "tweet_id": "2108497712815743231",
@@ -1806,7 +2902,15 @@
       "views": "476",
       "url": "https://x.com/idx_channel/status/2108497712815743231",
       "keyword": "IDX saham",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8828,
+      "sentiment_raw": {
+        "positive": 0.0958,
+        "neutral": 0.8828,
+        "negative": 0.0215
+      }
     },
     {
       "tweet_id": "2108492224929620188",
@@ -1820,7 +2924,15 @@
       "views": "513",
       "url": "https://x.com/idx_channel/status/2108492224929620188",
       "keyword": "IDX saham",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9827,
+      "sentiment_raw": {
+        "positive": 0.0093,
+        "neutral": 0.9827,
+        "negative": 0.008
+      }
     },
     {
       "tweet_id": "2108478552652095737",
@@ -1831,10 +2943,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 1,
-      "views": "102",
+      "views": "103",
       "url": "https://x.com/BRIDanareksa/status/2108478552652095737",
       "keyword": "IDX saham",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "positive",
+      "sentiment_score": 0.6863,
+      "sentiment_raw": {
+        "positive": 0.6863,
+        "neutral": 0.3111,
+        "negative": 0.0027
+      }
     },
     {
       "tweet_id": "2108477596292055479",
@@ -1848,7 +2968,15 @@
       "views": "498",
       "url": "https://x.com/idx_channel/status/2108477596292055479",
       "keyword": "IDX saham",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8702,
+      "sentiment_raw": {
+        "positive": 0.1247,
+        "neutral": 0.8702,
+        "negative": 0.0051
+      }
     },
     {
       "tweet_id": "2108463545985929507",
@@ -1862,7 +2990,15 @@
       "views": "542",
       "url": "https://x.com/idx_channel/status/2108463545985929507",
       "keyword": "IDX saham",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9886,
+      "sentiment_raw": {
+        "positive": 0.008,
+        "neutral": 0.9886,
+        "negative": 0.0034
+      }
     },
     {
       "tweet_id": "2108455707330990295",
@@ -1876,7 +3012,15 @@
       "views": "361",
       "url": "https://x.com/idx_channel/status/2108455707330990295",
       "keyword": "IDX saham",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9772,
+      "sentiment_raw": {
+        "positive": 0.0193,
+        "neutral": 0.9772,
+        "negative": 0.0035
+      }
     },
     {
       "tweet_id": "2108437311675404291",
@@ -1890,7 +3034,15 @@
       "views": "413",
       "url": "https://x.com/idx_channel/status/2108437311675404291",
       "keyword": "IDX saham",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9019,
+      "sentiment_raw": {
+        "positive": 0.0882,
+        "neutral": 0.9019,
+        "negative": 0.0099
+      }
     },
     {
       "tweet_id": "2108370663769772146",
@@ -1901,10 +3053,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "450",
+      "views": "451",
       "url": "https://x.com/idx_channel/status/2108370663769772146",
       "keyword": "IDX saham",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.981,
+      "sentiment_raw": {
+        "positive": 0.0103,
+        "neutral": 0.981,
+        "negative": 0.0086
+      }
     },
     {
       "tweet_id": "2108365246767435989",
@@ -1915,10 +3075,18 @@
       "likes": 1,
       "retweets": 0,
       "replies": 1,
-      "views": "206",
+      "views": "207",
       "url": "https://x.com/idxislamic/status/2108365246767435989",
       "keyword": "IDX saham",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8469,
+      "sentiment_raw": {
+        "positive": 0.1046,
+        "neutral": 0.8469,
+        "negative": 0.0485
+      }
     },
     {
       "tweet_id": "2108352258211770407",
@@ -1932,7 +3100,15 @@
       "views": "618",
       "url": "https://x.com/idx_channel/status/2108352258211770407",
       "keyword": "IDX saham",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9703,
+      "sentiment_raw": {
+        "positive": 0.0268,
+        "neutral": 0.9703,
+        "negative": 0.0029
+      }
     },
     {
       "tweet_id": "2108197392634016243",
@@ -1943,10 +3119,18 @@
       "likes": 3,
       "retweets": 2,
       "replies": 0,
-      "views": "3785",
+      "views": "3787",
       "url": "https://x.com/IDX_BEI/status/2108197392634016243",
       "keyword": "IDX saham",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.996,
+      "sentiment_raw": {
+        "positive": 0.003,
+        "neutral": 0.996,
+        "negative": 0.001
+      }
     },
     {
       "tweet_id": "2108166550457040998",
@@ -1957,10 +3141,150 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "1687",
+      "views": "1688",
       "url": "https://x.com/IDX_BEI/status/2108166550457040998",
       "keyword": "IDX saham",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9932,
+      "sentiment_raw": {
+        "positive": 0.0055,
+        "neutral": 0.9932,
+        "negative": 0.0013
+      }
+    },
+    {
+      "tweet_id": "2109192287179636952",
+      "text": "Sahabat, kini pembayaran pajak kendaraan bisa lebih terencana dengan bjb T-Samsat!\n\nMelalui fitur autodebet di DIGI bank bjb, pembayaran pajak kendaraan dapat dilakukan secara otomatis sesuai jadwal yang udah ditentukan\n\nYuk, manfaatkan bjb T-Samsat untuk membantu mengatur pembayaran pajak kendaraanmu!\n\nInformasi selengkapnya: https://t.co/hXBqDwGrY3\n\nbank bjb berizin dan diawasi oleh Otoritas Jasa Keuangan & Bank Indonesia serta merupakan peserta Penjaminan LPS\n\n#bankbjb #TandamataUntukNegeri #TandamataKu #DIGIbankbjb",
+      "author": "bank bjb",
+      "username": "infobankbjb",
+      "timestamp": "Sun Oct 11 08:00:02 +0000 2026",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "12",
+      "url": "https://x.com/infobankbjb/status/2109192287179636952",
+      "keyword": "Bank Indonesia",
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9454,
+      "sentiment_raw": {
+        "positive": 0.0522,
+        "neutral": 0.9454,
+        "negative": 0.0024
+      }
+    },
+    {
+      "tweet_id": "2109189892484001811",
+      "text": "Assalamualaikum, Sahabat Syariah!\n\nAlhamdulillah melalui program “Satu Benang untuk Sade”Satu Benang untuk Sade”, PT Bank Syariah Indonesia (Persero) Tbk sinergi bersama Danantara Indonesia berkomitmen mendukung pemulihan Desa Wisata Sade, Lombok, Nusa Tenggara Barat, pascabencana kebakaran.\n\nProgram ini diwujudkan melalui pembangunan kembali rumah adat, gapura desa, balai pertemuan, serta pusat ibadah masyarakat guna menghidupkan kembali aktivitas pariwisata dan mendorong kemandirian ekonomi masyarakat lokal.\n\nMelalui kolaborasi bersama BSI Maslahat, masyarakat juga dapat berpartisipasi dalam mendukung pemulihan Desa Sade melalui donasi yang tersedia di aplikasi BYOND by BSI.\n\nBersama, kita jaga warisan budaya Sasak, bangkitkan ekonomi masyarakat, dan hadirkan manfaat berkelanjutan bagi sesama.\n\n#BankSyariahIndonesia\n#MelayaniSepenuhHati",
+      "author": "Bank Syariah Indonesia",
+      "username": "bankbsi_id",
+      "timestamp": "Sun Oct 11 07:50:31 +0000 2026",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "views": "221",
+      "url": "https://x.com/bankbsi_id/status/2109189892484001811",
+      "keyword": "Bank Indonesia",
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.5014,
+      "sentiment_raw": {
+        "positive": 0.4874,
+        "neutral": 0.5014,
+        "negative": 0.0112
+      }
+    },
+    {
+      "tweet_id": "2109182346541044058",
+      "text": "@candle___nut Weekend Banking yang dapat Kakak cek melalui website resmi kami di https://t.co/YEQVMXh305 ya Kak.\n\nMohon tetap menjaga kerahasiaan data pribadi dan terima kasih telah menghubungi layanan kami. Semoga berkah selalu Kak @candle___nut senang melayani sepenuh hati (3/4)",
+      "author": "Bank Syariah Indonesia",
+      "username": "bankbsi_id",
+      "timestamp": "Sun Oct 11 07:20:32 +0000 2026",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "views": "27",
+      "url": "https://x.com/bankbsi_id/status/2109182346541044058",
+      "keyword": "Bank Indonesia",
+      "source": null,
+      "language": "id",
+      "sentiment": "positive",
+      "sentiment_score": 0.6962,
+      "sentiment_raw": {
+        "positive": 0.6962,
+        "neutral": 0.2985,
+        "negative": 0.0053
+      }
+    },
+    {
+      "tweet_id": "2109182344766931057",
+      "text": "@candle___nut website resmi kami di https://t.co/Zo07ALSt0N ya Kak.\n\nSelain itu, Kakak dapat mengunjungi Kantor Cabang BSI terdekat dengan membawa KTP asli, buku tabungan, dan kartu ATM. Kantor Cabang BSI beroperasional pada hari Senin-Jumat pukul 08.00-16.00. Tersedia juga layanan (2/4)",
+      "author": "Bank Syariah Indonesia",
+      "username": "bankbsi_id",
+      "timestamp": "Sun Oct 11 07:20:32 +0000 2026",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "views": "22",
+      "url": "https://x.com/bankbsi_id/status/2109182344766931057",
+      "keyword": "Bank Indonesia",
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9856,
+      "sentiment_raw": {
+        "positive": 0.013,
+        "neutral": 0.9856,
+        "negative": 0.0014
+      }
+    },
+    {
+      "tweet_id": "2109182343009402884",
+      "text": "@candle___nut Assalamualaikum Kak @candle___nut😊\nMohon maaf ya Kak atas ketidaknyamanannya. Kami informasikan untuk penutupan layanan SMS Notifikasi, Kakak dapat menghubungi layanan Bank Syariah Indonesia Call 14040. Kakak juga dapat menghubungi layanan telepon bebas pulsa melalui (1/4)",
+      "author": "Bank Syariah Indonesia",
+      "username": "bankbsi_id",
+      "timestamp": "Sun Oct 11 07:20:31 +0000 2026",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "views": "23",
+      "url": "https://x.com/bankbsi_id/status/2109182343009402884",
+      "keyword": "Bank Indonesia",
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.994,
+      "sentiment_raw": {
+        "positive": 0.0028,
+        "neutral": 0.994,
+        "negative": 0.0032
+      }
+    },
+    {
+      "tweet_id": "2109181810601296188",
+      "text": "What you would actually own: OPay Limited, a Cayman Islands holding company based in Singapore. Nigerian operations, incl. OPay Microfinance Bank, sit in subsidiaries. Indonesia runs through a VIE, held by contract, not shares. Buyers get Cayman shares. (p.6, 8-9)",
+      "author": "Paper Desk",
+      "username": "PaperTrailDesk",
+      "timestamp": "Sun Oct 11 07:18:25 +0000 2026",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "views": "16",
+      "url": "https://x.com/PaperTrailDesk/status/2109181810601296188",
+      "keyword": "Bank Indonesia",
+      "source": null,
+      "language": "en",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8921,
+      "sentiment_raw": {
+        "negative": 0.0649,
+        "neutral": 0.8921,
+        "positive": 0.0429
+      }
     },
     {
       "tweet_id": "2109176894906064949",
@@ -1971,10 +3295,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "7",
+      "views": "17",
       "url": "https://x.com/BNI/status/2109176894906064949",
       "keyword": "Bank Indonesia",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.6968,
+      "sentiment_raw": {
+        "positive": 0.2491,
+        "neutral": 0.6968,
+        "negative": 0.0541
+      }
     },
     {
       "tweet_id": "2109171280725578216",
@@ -1982,13 +3314,21 @@
       "author": "Auregalia Aruri 🗝️🎀 @ INDONESIA ✈️",
       "username": "AuregaliaAruri",
       "timestamp": "Sun Oct 11 06:36:34 +0000 2026",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
-      "views": "15",
+      "views": "50",
       "url": "https://x.com/AuregaliaAruri/status/2109171280725578216",
       "keyword": "Bank Indonesia",
-      "source": null
+      "source": null,
+      "language": "en",
+      "sentiment": "neutral",
+      "sentiment_score": 0.7696,
+      "sentiment_raw": {
+        "negative": 0.1271,
+        "neutral": 0.7696,
+        "positive": 0.1033
+      }
     },
     {
       "tweet_id": "2109167780645798241",
@@ -1999,10 +3339,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "15",
+      "views": "29",
       "url": "https://x.com/PutraPandu001/status/2109167780645798241",
       "keyword": "Bank Indonesia",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "negative",
+      "sentiment_score": 0.997,
+      "sentiment_raw": {
+        "positive": 0.0011,
+        "neutral": 0.002,
+        "negative": 0.997
+      }
     },
     {
       "tweet_id": "2109156675840057625",
@@ -2016,7 +3364,15 @@
       "views": "16",
       "url": "https://x.com/massulaimana/status/2109156675840057625",
       "keyword": "Bank Indonesia",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.6581,
+      "sentiment_raw": {
+        "positive": 0.2657,
+        "neutral": 0.6581,
+        "negative": 0.0762
+      }
     },
     {
       "tweet_id": "2109154733160096144",
@@ -2027,10 +3383,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "11",
+      "views": "15",
       "url": "https://x.com/intlsportswoman/status/2109154733160096144",
       "keyword": "Bank Indonesia",
-      "source": null
+      "source": null,
+      "language": "en",
+      "sentiment": "positive",
+      "sentiment_score": 0.8409,
+      "sentiment_raw": {
+        "negative": 0.004,
+        "neutral": 0.1551,
+        "positive": 0.8409
+      }
     },
     {
       "tweet_id": "2109151269650911701",
@@ -2044,7 +3408,15 @@
       "views": "4",
       "url": "https://x.com/Go_Bank10/status/2109151269650911701",
       "keyword": "Bank Indonesia",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.7304,
+      "sentiment_raw": {
+        "positive": 0.0167,
+        "neutral": 0.7304,
+        "negative": 0.2529
+      }
     },
     {
       "tweet_id": "2109150261633786366",
@@ -2055,10 +3427,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "21",
+      "views": "23",
       "url": "https://x.com/RakhaRakha45/status/2109150261633786366",
       "keyword": "Bank Indonesia",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.7912,
+      "sentiment_raw": {
+        "positive": 0.0077,
+        "neutral": 0.7912,
+        "negative": 0.2011
+      }
     },
     {
       "tweet_id": "2109146983659135042",
@@ -2069,10 +3449,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "43",
+      "views": "54",
       "url": "https://x.com/superbankidn/status/2109146983659135042",
       "keyword": "Bank Indonesia",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8434,
+      "sentiment_raw": {
+        "positive": 0.1324,
+        "neutral": 0.8434,
+        "negative": 0.0242
+      }
     },
     {
       "tweet_id": "2109145369888354395",
@@ -2083,10 +3471,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "101",
+      "views": "123",
       "url": "https://x.com/dmonacJ/status/2109145369888354395",
       "keyword": "Bank Indonesia",
-      "source": null
+      "source": null,
+      "language": "en",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8897,
+      "sentiment_raw": {
+        "negative": 0.035,
+        "neutral": 0.8897,
+        "positive": 0.0753
+      }
     },
     {
       "tweet_id": "2109139258820952087",
@@ -2097,10 +3493,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 1,
-      "views": "40",
+      "views": "47",
       "url": "https://x.com/bankbsi_id/status/2109139258820952087",
       "keyword": "Bank Indonesia",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9775,
+      "sentiment_raw": {
+        "positive": 0.0113,
+        "neutral": 0.9775,
+        "negative": 0.0112
+      }
     },
     {
       "tweet_id": "2109132509933937053",
@@ -2111,10 +3515,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "41",
+      "views": "45",
       "url": "https://x.com/KellMorrHK/status/2109132509933937053",
       "keyword": "Bank Indonesia",
-      "source": null
+      "source": null,
+      "language": "en",
+      "sentiment": "neutral",
+      "sentiment_score": 0.4748,
+      "sentiment_raw": {
+        "negative": 0.4675,
+        "neutral": 0.4748,
+        "positive": 0.0577
+      }
     },
     {
       "tweet_id": "2109132507086242042",
@@ -2125,10 +3537,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "41",
+      "views": "45",
       "url": "https://x.com/loveutomoon/status/2109132507086242042",
       "keyword": "Bank Indonesia",
-      "source": null
+      "source": null,
+      "language": "en",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8194,
+      "sentiment_raw": {
+        "negative": 0.0206,
+        "neutral": 0.8194,
+        "positive": 0.16
+      }
     },
     {
       "tweet_id": "2109125084304592938",
@@ -2142,7 +3562,15 @@
       "views": "7",
       "url": "https://x.com/MusepayFam/status/2109125084304592938",
       "keyword": "Bank Indonesia",
-      "source": null
+      "source": null,
+      "language": "en",
+      "sentiment": "negative",
+      "sentiment_score": 0.5474,
+      "sentiment_raw": {
+        "negative": 0.5474,
+        "neutral": 0.371,
+        "positive": 0.0816
+      }
     },
     {
       "tweet_id": "2109124308576690350",
@@ -2153,94 +3581,40 @@
       "likes": 1,
       "retweets": 0,
       "replies": 1,
-      "views": "68",
+      "views": "93",
       "url": "https://x.com/patriotkampung4/status/2109124308576690350",
       "keyword": "Bank Indonesia",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9405,
+      "sentiment_raw": {
+        "positive": 0.05,
+        "neutral": 0.9405,
+        "negative": 0.0095
+      }
     },
     {
-      "tweet_id": "2109120562983567646",
-      "text": "What you need:\n→ Any Indonesian e-wallet or bank app that supports QRIS\n→ GoPay, OVO, Dana, ShopeePay, BCA Mobile, Mandiri Livin', BNI Mobile — all work\n\nHow to pay:\n1/ Open your e-wallet or bank app\n2/ Tap \"Scan\" or \"Pay\"\n3/ Scan the merchant's QRIS code\n4/ Enter the amount (some merchants have fixed amounts)\n5/ Confirm — done. Receipt appears instantly in your app.\n\nWhere QRIS works:\n→ Warungs, markets, parking attendants, street vendors, convenience stores\n→ Essentially everywhere that displays the blue-white QR code\n\nWhy it matters:\n→ One QR code works across all wallets and all banks\n→ Transaction history automatically tracked in your app\n→ No minimum transaction required\n\nWhich e-wallet do you use most for QRIS payments — and has it replaced cash for you?\n\n#IndonesiaFinance #QRIS #EWallet #IndonesiaLife #ExpatsInIndonesia",
-      "author": "Siap² Life in Indonesia 🇮🇩",
-      "username": "siapsiapindo",
-      "timestamp": "Sun Oct 11 03:15:02 +0000 2026",
-      "likes": 0,
+      "tweet_id": "2109181086844809451",
+      "text": "Adakah disini jasa blokir permanen tiktoknya dc pinjol? Aneh bgt, gaada yg ngutang disebar-sebar foto klgku. Kaya gitu lapornya di afpi atau ojk gimana ya? #zonauang #pinjol",
+      "author": "CIA🦕",
+      "username": "roshayang",
+      "timestamp": "Sun Oct 11 07:15:32 +0000 2026",
+      "likes": 2,
       "retweets": 0,
-      "replies": 1,
-      "views": "56",
-      "url": "https://x.com/siapsiapindo/status/2109120562983567646",
-      "keyword": "Bank Indonesia",
-      "source": null
-    },
-    {
-      "tweet_id": "2109120257139048501",
-      "text": "WTS AVENGED SEVENFOLD LIVE IN INDONESIA\n\nCat 2 Center 1 tix ‼️\n\ntiket temen, open nego lesgoww\n\n#WTS #AVENGEDSEVENFOLD #AVENGEDSEVENFOLDLIVEININDONESIA #zonajajan #zonauang https://t.co/gRlnwlkiJ8",
-      "author": "naav ; JUAL BANK KONTEN",
-      "username": "naavileras",
-      "timestamp": "Sun Oct 11 03:13:49 +0000 2026",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "views": "83",
-      "url": "https://x.com/naavileras/status/2109120257139048501",
-      "keyword": "Bank Indonesia",
-      "source": null
-    },
-    {
-      "tweet_id": "2109117031534711036",
-      "text": "Everyone analyses Southeast Asia's nuclear market country by country.\n\nVietnam. Philippines. Thailand. Malaysia. Indonesia.\n\nFive separate bets.\n\nThat's the wrong way to look at it.\n\nA portfolio manager would sort the region by asset class, not by flag.\n\nAnd when you do, Southeast Asia splits cleanly into two very different portfolios.\n\nPORTFOLIO 1 — The Core Holding: Light-Water & SMR\n\nThis is the big one. Deepest operating history, most regulatory precedent.\n\n🇻🇳 Vietnam — Ninh Thuan 1, Russian VVER-1200 units\n🇵🇭 Philippines — evaluating US-designed SMRs through Meralco\n🇹🇭 Thailand — SMR cooperation with KHNP, built on Korean PWR designs\n🇲🇾 Malaysia — cooperation with the US on conventional nuclear\n🇮🇩 Indonesia — 500 MW by 2034, aimed at Sumatra and Kalimantan industry\nEvery market here competes on the same terms:\n→ Financing structures not yet closed anywhere\n→ Regulatory frameworks built in parallel with vendor engagement\n→ Workforce pipelines that take years regardless of country\n→ A wave of data centre and industrial demand lifting all five at once\nRegional power demand doubles by 2050. Reaching ~25 GW needs an estimated $208 billion in capex.\nHere's the catch: the risks move together.\nA financing breakthrough — like the World Bank lifting its nuclear ban in 2025 — benefits every market at once.\n\nA workforce or regulatory setback in one country reflects a regional constraint, not a local one.\nSo a genuine regional strategy beats five disconnected country plans.\nPORTFOLIO 2 — The Small, Uncorrelated Position: Advanced Reactors\nThis one behaves nothing like the first.\nNon-light-water advanced reactors have reached a live regulatory process in the region exactly once.\n\n🇮🇩 Indonesia — BAPETEN approved ThorCon's Site Evaluation Plan in August 2025.\n\nThat's it. No comparable milestone anywhere else in Southeast Asia.\n\nSmall position. Single live project. Single country.\n\nBut structurally uncorrelated:\n→ Different regulatory expertise\n→ Different fuel cycle logistics\n→ Far thinner competitor pool\n→ None of the shared regional risks apply the same way\n\nWhy Indonesia stands out:\n\nIts 500 MW RUPTL target keeps it in the mainstream portfolio.\n\nIts BAPETEN approval for ThorCon gives it a foothold in advanced reactors.\n\nOne country. Both asset classes. Unique in the region.\n\nWhat this means for capital:\n\n→ Bulk of capital and BD effort → mainstream light-water and SMR portfolio\n→ Small allocation → advanced reactor category\n\nNot because advanced reactors are small forever. Because the field is uncrowded now.\n\nA firm with genuine advanced reactor licensing or fuel cycle expertise should build relationships while the field is thin — not wait for a second country to hit a regulatory milestone and watch the landscape change.\nThe region isn't five bets.\nIt's two portfolios.\nMost firms are only positioned in one.\n\nRead: https://t.co/Y0Bg2ihGZX\n\n#Nuclear #SMR #SoutheastAsia #Energy #NuclearEnergy",
-      "author": "Nuclear Business Platform",
-      "username": "Nuclear_BP",
-      "timestamp": "Sun Oct 11 03:01:00 +0000 2026",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "views": "91",
-      "url": "https://x.com/Nuclear_BP/status/2109117031534711036",
-      "keyword": "Bank Indonesia",
-      "source": null
-    },
-    {
-      "tweet_id": "2109114841860575720",
-      "text": "✨ Cari Arah Kiblat? Buka MDIN Aja! ✨\n\nAssalamualaikum, BMers!\n\nKalau lagi di tempat baru, kadang arah kiblat jadi salah satu hal yang perlu dicari pas waktunya salat.\n\nUntungnya, sekarang tinggal buka Hijrah Lounge di Muamalat DIN dan pilih fitur Kiblat untuk tahu arah kiblat dengan lebih mudah.\n\nJadi, nggak perlu install aplikasi tambahan lagi. Semua bisa langsung dari Muamalat DIN~ ✨\n\n#MuamalatDIN\n#BankMuamalat\n____\nPT Bank Muamalat Indonesia Tbk berizin dan diawasi oleh Otoritas Jasa Keuangan dan Bank Indonesia, serta merupakan peserta penjaminan LPS",
-      "author": "Bank Muamalat",
-      "username": "BankMuamalat",
-      "timestamp": "Sun Oct 11 02:52:18 +0000 2026",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "views": "74",
-      "url": "https://x.com/BankMuamalat/status/2109114841860575720",
-      "keyword": "Bank Indonesia",
-      "source": null
-    },
-    {
-      "tweet_id": "2109109494366294238",
-      "text": "Need help buying from Korea, Indonesia, Japan or Thailand?\n\n𝗦𝗸𝘆𝗽𝗼𝗽 𝗣𝗛 offers:\n   🌤️ Address Rental and Box Sharing\n   🌤️ Bank Payment Transfer (krw idr thb)\n   🌤️ Item Pahanaps\n   🌤️ Purchase Assistance (any site!)\n   🌤️ Yangdo and Mercari Assistance\n\n📦 Shipout every 𝟭𝟱𝘁𝗵 𝗮𝗻𝗱/𝗼𝗿 𝟯𝟬𝘁𝗵 of the month\n✈️ Under FETA (around 5-7 days ETA to PH)\n‼️ Mention after DM \n\n💕 kr ina th jp ph thai china taiwan hongkong php to shopee tokopedia amiami gmmtv shop anime merch to checkout bunjang website pasabuy peso won rupiah baht yen kpop dmd alwayswonder sanrio seventeen bts aespa blackpink cortis txt enhypen andteam twice exo ive share bank transfer weverse php",
-      "author": "Skypop PH 🌤️",
-      "username": "skypop_ph",
-      "timestamp": "Sun Oct 11 02:31:03 +0000 2026",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "views": "205",
-      "url": "https://x.com/skypop_ph/status/2109109494366294238",
-      "keyword": "Bank Indonesia",
-      "source": null
-    },
-    {
-      "tweet_id": "2109107173444014305",
-      "text": "kenapa soeharto dulu dibenci sekaligus disukai\n\n1. kenapa disukai\n\nekonomi: dia disebut membawa indonesia keluar dari hiperinflasi sekitar 650% dan kebangkrutan era sebelumnya\n\npertumbuhan 1968 disebut 10,92%, rata-rata era orde baru 5,98%\n\nkemiskinan turun dari sekitar 60% di awal jadi sekitar 11% di 1996\n\nindonesia dijuluki \"macan asia\"\n\nswasembada pangan 1984, dapat penghargaan fao\nmembuka investasi asing (freeport 1967), bergabung lagi dengan imf, bank dunia, pbb, dan menghentikan konfrontasi dengan malaysia\n\nstabil dan aman, golkar selalu menang sehingga politik terasa tertib\n\ncitra sebagai jenderal berani: serangan umum 1 maret 1949, pernah ke sarajevo bosnia 1995 saat perang\n\ndari sana dibangun masjid di bosnia, sampai warga menyebutnya \"masjid soeharto\"\n\ncerita hidupnya dibuat sederhana: anak petani dari kemusuk, \"the smiling general\"\n\n2. kenapa dibenci\n\ncara naik ke kekuasaan: pelan-pelan melucuti soekarno setelah g30s dan supersemar, ada misteri soal surat itu\n\npemberantasan pki memakan banyak korban, disebut hingga 3 juta menurut laporan sarwo edi (angka ini diperdebatkan sejarawan)\n\notoriter dan militeristik, berkuasa 32 tahun\n\npemilu dianggap tidak adil: ali murtopo dan opsus menyusupi partai, pns dimobilisasi lewat korpri, partai disederhanakan jadi tiga, abri dan birokrasi menopang golkar\n\nkorupsi, kolusi, dan nepotisme: keluarga dan kroni menguasai bisnis (perbankan, properti, telekomunikasi, mobil nasional, tol, listrik)\n\npembatasan kritik: majalah pop dibredel dan pemimpin redaksinya dipenjara 1974 gara-gara tulisan soal silsilah\n\nkroni dan keluarga ditaruh di jabatan penting menjelang akhir (anak jadi menteri sosial, bob hasan menteri perindustrian)\n\ndia hampir dipecat 1959 karena bisnis ilegal (barter, cengkeh, besi tua) bersama bob hasan dan lim sioe liong",
-      "author": "Lambe Saham",
-      "username": "LambeSahamjja",
-      "timestamp": "Sun Oct 11 02:21:50 +0000 2026",
-      "likes": 25,
-      "retweets": 3,
       "replies": 2,
-      "views": "2597",
-      "url": "https://x.com/LambeSahamjja/status/2109107173444014305",
-      "keyword": "Bank Indonesia",
-      "source": null
+      "views": "235",
+      "url": "https://x.com/roshayang/status/2109181086844809451",
+      "keyword": "OJK",
+      "source": null,
+      "language": "id",
+      "sentiment": "negative",
+      "sentiment_score": 0.9955,
+      "sentiment_raw": {
+        "positive": 0.0007,
+        "neutral": 0.0038,
+        "negative": 0.9955
+      }
     },
     {
       "tweet_id": "2109159664659423733",
@@ -2251,24 +3625,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "22",
+      "views": "31",
       "url": "https://x.com/knxarchieves/status/2109159664659423733",
       "keyword": "OJK",
-      "source": null
-    },
-    {
-      "tweet_id": "2109152280142651678",
-      "text": "Jangan tergiur pinjaman cepat! Pastikan legalitas pinjaman melalui OJK, lindungi data pribadi, dan hindari jeratan utang. Bijak meminjam, aman finansial!\n\n#PolresMadiun #WaspadaPinjolIlegal #LindungiDataPribadi https://t.co/qADkLJyB33",
-      "author": "Polsek Balerejo",
-      "username": "PolsekB46033",
-      "timestamp": "Sun Oct 11 05:21:04 +0000 2026",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "views": "2",
-      "url": "https://x.com/PolsekB46033/status/2109152280142651678",
-      "keyword": "OJK",
-      "source": null
+      "source": null,
+      "language": "en",
+      "sentiment": "neutral",
+      "sentiment_score": 0.7994,
+      "sentiment_raw": {
+        "negative": 0.1694,
+        "neutral": 0.7994,
+        "positive": 0.0312
+      }
     },
     {
       "tweet_id": "2109138538247893218",
@@ -2282,7 +3650,15 @@
       "views": "3",
       "url": "https://x.com/luckykeys7_/status/2109138538247893218",
       "keyword": "OJK",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9508,
+      "sentiment_raw": {
+        "positive": 0.0415,
+        "neutral": 0.9508,
+        "negative": 0.0077
+      }
     },
     {
       "tweet_id": "2109136154213875773",
@@ -2296,7 +3672,15 @@
       "views": "1",
       "url": "https://x.com/urname167/status/2109136154213875773",
       "keyword": "OJK",
-      "source": null
+      "source": null,
+      "language": "other",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9664,
+      "sentiment_raw": {
+        "positive": 0.0285,
+        "neutral": 0.9664,
+        "negative": 0.0051
+      }
     },
     {
       "tweet_id": "2109132224260100273",
@@ -2304,13 +3688,21 @@
       "author": "OJK Indonesia",
       "username": "ojkindonesia",
       "timestamp": "Sun Oct 11 04:01:22 +0000 2026",
-      "likes": 3,
+      "likes": 4,
       "retweets": 0,
       "replies": 1,
-      "views": "542",
+      "views": "655",
       "url": "https://x.com/ojkindonesia/status/2109132224260100273",
       "keyword": "OJK",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9859,
+      "sentiment_raw": {
+        "positive": 0.0109,
+        "neutral": 0.9859,
+        "negative": 0.0032
+      }
     },
     {
       "tweet_id": "2109125556910592051",
@@ -2321,10 +3713,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 1,
-      "views": "17",
+      "views": "18",
       "url": "https://x.com/cupsforest/status/2109125556910592051",
       "keyword": "OJK",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "positive",
+      "sentiment_score": 0.8627,
+      "sentiment_raw": {
+        "positive": 0.8627,
+        "neutral": 0.057,
+        "negative": 0.0802
+      }
     },
     {
       "tweet_id": "2109118189263348100",
@@ -2335,10 +3735,18 @@
       "likes": 2,
       "retweets": 0,
       "replies": 3,
-      "views": "450",
+      "views": "568",
       "url": "https://x.com/sapimomo99/status/2109118189263348100",
       "keyword": "OJK",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "negative",
+      "sentiment_score": 0.9586,
+      "sentiment_raw": {
+        "positive": 0.0255,
+        "neutral": 0.0159,
+        "negative": 0.9586
+      }
     },
     {
       "tweet_id": "2109116028127007036",
@@ -2352,7 +3760,15 @@
       "views": "2",
       "url": "https://x.com/tikdetik/status/2109116028127007036",
       "keyword": "OJK",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9945,
+      "sentiment_raw": {
+        "positive": 0.0013,
+        "neutral": 0.9945,
+        "negative": 0.0042
+      }
     },
     {
       "tweet_id": "2109116027002818666",
@@ -2363,10 +3779,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 1,
-      "views": "10",
+      "views": "11",
       "url": "https://x.com/tikdetik/status/2109116027002818666",
       "keyword": "OJK",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "negative",
+      "sentiment_score": 0.5747,
+      "sentiment_raw": {
+        "positive": 0.0121,
+        "neutral": 0.4132,
+        "negative": 0.5747
+      }
     },
     {
       "tweet_id": "2109116026012962984",
@@ -2380,7 +3804,15 @@
       "views": "10",
       "url": "https://x.com/tikdetik/status/2109116026012962984",
       "keyword": "OJK",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9863,
+      "sentiment_raw": {
+        "positive": 0.0036,
+        "neutral": 0.9863,
+        "negative": 0.0101
+      }
     },
     {
       "tweet_id": "2109116025123774487",
@@ -2391,10 +3823,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 1,
-      "views": "17",
+      "views": "18",
       "url": "https://x.com/tikdetik/status/2109116025123774487",
       "keyword": "OJK",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.5756,
+      "sentiment_raw": {
+        "positive": 0.0016,
+        "neutral": 0.5756,
+        "negative": 0.4228
+      }
     },
     {
       "tweet_id": "2109107978163105896",
@@ -2405,10 +3845,18 @@
       "likes": 2,
       "retweets": 0,
       "replies": 0,
-      "views": "29",
+      "views": "31",
       "url": "https://x.com/polres_madiun/status/2109107978163105896",
       "keyword": "OJK",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9744,
+      "sentiment_raw": {
+        "positive": 0.0183,
+        "neutral": 0.9744,
+        "negative": 0.0073
+      }
     },
     {
       "tweet_id": "2109100300774830172",
@@ -2419,10 +3867,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "28",
+      "views": "30",
       "url": "https://x.com/kalderanews/status/2109100300774830172",
       "keyword": "OJK",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9976,
+      "sentiment_raw": {
+        "positive": 0.0017,
+        "neutral": 0.9976,
+        "negative": 0.0007
+      }
     },
     {
       "tweet_id": "2109074203853103432",
@@ -2433,10 +3889,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 1,
-      "views": "33",
+      "views": "35",
       "url": "https://x.com/gulakotak69/status/2109074203853103432",
       "keyword": "OJK",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "negative",
+      "sentiment_score": 0.7731,
+      "sentiment_raw": {
+        "positive": 0.0084,
+        "neutral": 0.2185,
+        "negative": 0.7731
+      }
     },
     {
       "tweet_id": "2109072950146290131",
@@ -2450,7 +3914,15 @@
       "views": "9",
       "url": "https://x.com/ArahKarirmu/status/2109072950146290131",
       "keyword": "OJK",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9958,
+      "sentiment_raw": {
+        "positive": 0.003,
+        "neutral": 0.9958,
+        "negative": 0.0012
+      }
     },
     {
       "tweet_id": "2109072891962880420",
@@ -2464,7 +3936,15 @@
       "views": "7",
       "url": "https://x.com/ArahKarirmu/status/2109072891962880420",
       "keyword": "OJK",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9655,
+      "sentiment_raw": {
+        "positive": 0.0221,
+        "neutral": 0.9655,
+        "negative": 0.0125
+      }
     },
     {
       "tweet_id": "2109060025130135658",
@@ -2475,10 +3955,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "4",
+      "views": "5",
       "url": "https://x.com/thisnotugly/status/2109060025130135658",
       "keyword": "OJK",
-      "source": null
+      "source": null,
+      "language": "other",
+      "sentiment": "negative",
+      "sentiment_score": 0.9751,
+      "sentiment_raw": {
+        "positive": 0.0019,
+        "neutral": 0.023,
+        "negative": 0.9751
+      }
     },
     {
       "tweet_id": "2109043960480223365",
@@ -2492,7 +3980,15 @@
       "views": "5",
       "url": "https://x.com/RubenAlvear1982/status/2109043960480223365",
       "keyword": "OJK",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9682,
+      "sentiment_raw": {
+        "positive": 0.0246,
+        "neutral": 0.9682,
+        "negative": 0.0072
+      }
     },
     {
       "tweet_id": "2109034922350661763",
@@ -2503,10 +3999,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "4",
+      "views": "5",
       "url": "https://x.com/gravity_2004/status/2109034922350661763",
       "keyword": "OJK",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9681,
+      "sentiment_raw": {
+        "positive": 0.0282,
+        "neutral": 0.9681,
+        "negative": 0.0037
+      }
     },
     {
       "tweet_id": "2108976962962338179",
@@ -2517,10 +4021,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "80",
+      "views": "81",
       "url": "https://x.com/SyafiraFalisha/status/2108976962962338179",
       "keyword": "OJK",
-      "source": null
+      "source": null,
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9821,
+      "sentiment_raw": {
+        "positive": 0.0106,
+        "neutral": 0.9821,
+        "negative": 0.0073
+      }
     },
     {
       "tweet_id": "2108896971620811131",
@@ -2528,13 +4040,21 @@
       "author": "Bank Indonesia",
       "username": "bank_indonesia",
       "timestamp": "Sat Oct 10 12:26:34 +0000 2026",
-      "likes": 57,
-      "retweets": 33,
-      "replies": 26,
-      "views": "3365",
+      "likes": 63,
+      "retweets": 38,
+      "replies": 33,
+      "views": "3481",
       "url": "https://x.com/bank_indonesia/status/2108896971620811131",
       "keyword": null,
-      "source": "@bank_indonesia"
+      "source": "@bank_indonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9545,
+      "sentiment_raw": {
+        "positive": 0.036,
+        "neutral": 0.9545,
+        "negative": 0.0095
+      }
     },
     {
       "tweet_id": "2108724202459308183",
@@ -2545,10 +4065,18 @@
       "likes": 9,
       "retweets": 2,
       "replies": 1,
-      "views": "1777",
+      "views": "1791",
       "url": "https://x.com/bank_indonesia/status/2108724202459308183",
       "keyword": null,
-      "source": "@bank_indonesia"
+      "source": "@bank_indonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.7025,
+      "sentiment_raw": {
+        "positive": 0.2183,
+        "neutral": 0.7025,
+        "negative": 0.0792
+      }
     },
     {
       "tweet_id": "2108569854957760734",
@@ -2559,10 +4087,18 @@
       "likes": 15,
       "retweets": 2,
       "replies": 1,
-      "views": "1954",
+      "views": "1967",
       "url": "https://x.com/bank_indonesia/status/2108569854957760734",
       "keyword": null,
-      "source": "@bank_indonesia"
+      "source": "@bank_indonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9742,
+      "sentiment_raw": {
+        "positive": 0.0205,
+        "neutral": 0.9742,
+        "negative": 0.0052
+      }
     },
     {
       "tweet_id": "2108526881930944540",
@@ -2573,10 +4109,18 @@
       "likes": 7,
       "retweets": 0,
       "replies": 0,
-      "views": "1540",
+      "views": "1545",
       "url": "https://x.com/bank_indonesia/status/2108526881930944540",
       "keyword": null,
-      "source": "@bank_indonesia"
+      "source": "@bank_indonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9429,
+      "sentiment_raw": {
+        "positive": 0.0503,
+        "neutral": 0.9429,
+        "negative": 0.0068
+      }
     },
     {
       "tweet_id": "2108483330555732256",
@@ -2587,10 +4131,18 @@
       "likes": 8,
       "retweets": 0,
       "replies": 2,
-      "views": "2991",
+      "views": "2996",
       "url": "https://x.com/bank_indonesia/status/2108483330555732256",
       "keyword": null,
-      "source": "@bank_indonesia"
+      "source": "@bank_indonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9947,
+      "sentiment_raw": {
+        "positive": 0.004,
+        "neutral": 0.9947,
+        "negative": 0.0013
+      }
     },
     {
       "tweet_id": "2108375294059098216",
@@ -2601,10 +4153,18 @@
       "likes": 12,
       "retweets": 0,
       "replies": 1,
-      "views": "1492",
+      "views": "1496",
       "url": "https://x.com/bank_indonesia/status/2108375294059098216",
       "keyword": null,
-      "source": "@bank_indonesia"
+      "source": "@bank_indonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8209,
+      "sentiment_raw": {
+        "positive": 0.1203,
+        "neutral": 0.8209,
+        "negative": 0.0588
+      }
     },
     {
       "tweet_id": "2108153261643776114",
@@ -2615,10 +4175,18 @@
       "likes": 6,
       "retweets": 0,
       "replies": 2,
-      "views": "1265",
+      "views": "1267",
       "url": "https://x.com/bank_indonesia/status/2108153261643776114",
       "keyword": null,
-      "source": "@bank_indonesia"
+      "source": "@bank_indonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9117,
+      "sentiment_raw": {
+        "positive": 0.0782,
+        "neutral": 0.9117,
+        "negative": 0.01
+      }
     },
     {
       "tweet_id": "2108151224436740403",
@@ -2629,10 +4197,18 @@
       "likes": 5,
       "retweets": 1,
       "replies": 1,
-      "views": "2073",
+      "views": "2076",
       "url": "https://x.com/bank_indonesia/status/2108151224436740403",
       "keyword": null,
-      "source": "@bank_indonesia"
+      "source": "@bank_indonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.7511,
+      "sentiment_raw": {
+        "positive": 0.134,
+        "neutral": 0.7511,
+        "negative": 0.1149
+      }
     },
     {
       "tweet_id": "2108032990408511552",
@@ -2643,10 +4219,18 @@
       "likes": 5,
       "retweets": 1,
       "replies": 3,
-      "views": "1326",
+      "views": "1329",
       "url": "https://x.com/bank_indonesia/status/2108032990408511552",
       "keyword": null,
-      "source": "@bank_indonesia"
+      "source": "@bank_indonesia",
+      "language": "id",
+      "sentiment": "positive",
+      "sentiment_score": 0.5367,
+      "sentiment_raw": {
+        "positive": 0.5367,
+        "neutral": 0.4309,
+        "negative": 0.0324
+      }
     },
     {
       "tweet_id": "2107821734422598068",
@@ -2657,10 +4241,18 @@
       "likes": 5,
       "retweets": 2,
       "replies": 0,
-      "views": "1536",
+      "views": "1538",
       "url": "https://x.com/bank_indonesia/status/2107821734422598068",
       "keyword": null,
-      "source": "@bank_indonesia"
+      "source": "@bank_indonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9326,
+      "sentiment_raw": {
+        "positive": 0.0534,
+        "neutral": 0.9326,
+        "negative": 0.0141
+      }
     },
     {
       "tweet_id": "2107769996491546950",
@@ -2671,10 +4263,18 @@
       "likes": 5,
       "retweets": 0,
       "replies": 0,
-      "views": "1845",
+      "views": "1847",
       "url": "https://x.com/bank_indonesia/status/2107769996491546950",
       "keyword": null,
-      "source": "@bank_indonesia"
+      "source": "@bank_indonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9009,
+      "sentiment_raw": {
+        "positive": 0.0891,
+        "neutral": 0.9009,
+        "negative": 0.01
+      }
     },
     {
       "tweet_id": "2107639350850908226",
@@ -2685,10 +4285,18 @@
       "likes": 9,
       "retweets": 3,
       "replies": 1,
-      "views": "2443",
+      "views": "2445",
       "url": "https://x.com/bank_indonesia/status/2107639350850908226",
       "keyword": null,
-      "source": "@bank_indonesia"
+      "source": "@bank_indonesia",
+      "language": "id",
+      "sentiment": "negative",
+      "sentiment_score": 0.4609,
+      "sentiment_raw": {
+        "positive": 0.0832,
+        "neutral": 0.4559,
+        "negative": 0.4609
+      }
     },
     {
       "tweet_id": "2107463149628829732",
@@ -2699,10 +4307,18 @@
       "likes": 4,
       "retweets": 0,
       "replies": 1,
-      "views": "2173",
+      "views": "2175",
       "url": "https://x.com/bank_indonesia/status/2107463149628829732",
       "keyword": null,
-      "source": "@bank_indonesia"
+      "source": "@bank_indonesia",
+      "language": "id",
+      "sentiment": "positive",
+      "sentiment_score": 0.6395,
+      "sentiment_raw": {
+        "positive": 0.6395,
+        "neutral": 0.2179,
+        "negative": 0.1426
+      }
     },
     {
       "tweet_id": "2109132224260100273",
@@ -2710,13 +4326,21 @@
       "author": "OJK Indonesia",
       "username": "ojkindonesia",
       "timestamp": "Sun Oct 11 04:01:22 +0000 2026",
-      "likes": 3,
+      "likes": 4,
       "retweets": 0,
       "replies": 1,
-      "views": "542",
+      "views": "655",
       "url": "https://x.com/ojkindonesia/status/2109132224260100273",
       "keyword": null,
-      "source": "@ojkindonesia"
+      "source": "@ojkindonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9859,
+      "sentiment_raw": {
+        "positive": 0.0109,
+        "neutral": 0.9859,
+        "negative": 0.0032
+      }
     },
     {
       "tweet_id": "2108748139935182871",
@@ -2727,10 +4351,18 @@
       "likes": 14,
       "retweets": 0,
       "replies": 1,
-      "views": "1137",
+      "views": "1145",
       "url": "https://x.com/ojkindonesia/status/2108748139935182871",
       "keyword": null,
-      "source": "@ojkindonesia"
+      "source": "@ojkindonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9727,
+      "sentiment_raw": {
+        "positive": 0.0237,
+        "neutral": 0.9727,
+        "negative": 0.0036
+      }
     },
     {
       "tweet_id": "2108584898303025524",
@@ -2744,7 +4376,15 @@
       "views": "856",
       "url": "https://x.com/ojkindonesia/status/2108584898303025524",
       "keyword": null,
-      "source": "@ojkindonesia"
+      "source": "@ojkindonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.7515,
+      "sentiment_raw": {
+        "positive": 0.2266,
+        "neutral": 0.7515,
+        "negative": 0.0219
+      }
     },
     {
       "tweet_id": "2108580990633591195",
@@ -2755,10 +4395,18 @@
       "likes": 8,
       "retweets": 0,
       "replies": 0,
-      "views": "933",
+      "views": "935",
       "url": "https://x.com/ojkindonesia/status/2108580990633591195",
       "keyword": null,
-      "source": "@ojkindonesia"
+      "source": "@ojkindonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.985,
+      "sentiment_raw": {
+        "positive": 0.0125,
+        "neutral": 0.985,
+        "negative": 0.0025
+      }
     },
     {
       "tweet_id": "2108556336095223940",
@@ -2772,7 +4420,15 @@
       "views": "1180",
       "url": "https://x.com/ojkindonesia/status/2108556336095223940",
       "keyword": null,
-      "source": "@ojkindonesia"
+      "source": "@ojkindonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.7665,
+      "sentiment_raw": {
+        "positive": 0.2266,
+        "neutral": 0.7665,
+        "negative": 0.0069
+      }
     },
     {
       "tweet_id": "2108555265734062539",
@@ -2783,10 +4439,18 @@
       "likes": 10,
       "retweets": 0,
       "replies": 0,
-      "views": "773",
+      "views": "774",
       "url": "https://x.com/ojkindonesia/status/2108555265734062539",
       "keyword": null,
-      "source": "@ojkindonesia"
+      "source": "@ojkindonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9922,
+      "sentiment_raw": {
+        "positive": 0.0052,
+        "neutral": 0.9922,
+        "negative": 0.0026
+      }
     },
     {
       "tweet_id": "2108554934920855699",
@@ -2797,10 +4461,18 @@
       "likes": 8,
       "retweets": 0,
       "replies": 0,
-      "views": "1018",
+      "views": "1019",
       "url": "https://x.com/ojkindonesia/status/2108554934920855699",
       "keyword": null,
-      "source": "@ojkindonesia"
+      "source": "@ojkindonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9917,
+      "sentiment_raw": {
+        "positive": 0.0059,
+        "neutral": 0.9917,
+        "negative": 0.0024
+      }
     },
     {
       "tweet_id": "2108553249225937348",
@@ -2814,7 +4486,15 @@
       "views": "1153",
       "url": "https://x.com/ojkindonesia/status/2108553249225937348",
       "keyword": null,
-      "source": "@ojkindonesia"
+      "source": "@ojkindonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.6234,
+      "sentiment_raw": {
+        "positive": 0.3718,
+        "neutral": 0.6234,
+        "negative": 0.0048
+      }
     },
     {
       "tweet_id": "2108541924558909856",
@@ -2825,10 +4505,18 @@
       "likes": 13,
       "retweets": 0,
       "replies": 1,
-      "views": "869",
+      "views": "870",
       "url": "https://x.com/ojkindonesia/status/2108541924558909856",
       "keyword": null,
-      "source": "@ojkindonesia"
+      "source": "@ojkindonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9021,
+      "sentiment_raw": {
+        "positive": 0.0956,
+        "neutral": 0.9021,
+        "negative": 0.0023
+      }
     },
     {
       "tweet_id": "2108219124363170036",
@@ -2839,10 +4527,18 @@
       "likes": 14,
       "retweets": 3,
       "replies": 0,
-      "views": "1899",
+      "views": "1901",
       "url": "https://x.com/ojkindonesia/status/2108219124363170036",
       "keyword": null,
-      "source": "@ojkindonesia"
+      "source": "@ojkindonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.6802,
+      "sentiment_raw": {
+        "positive": 0.3144,
+        "neutral": 0.6802,
+        "negative": 0.0054
+      }
     },
     {
       "tweet_id": "2108210692759445625",
@@ -2853,10 +4549,18 @@
       "likes": 13,
       "retweets": 1,
       "replies": 0,
-      "views": "919",
+      "views": "920",
       "url": "https://x.com/ojkindonesia/status/2108210692759445625",
       "keyword": null,
-      "source": "@ojkindonesia"
+      "source": "@ojkindonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9233,
+      "sentiment_raw": {
+        "positive": 0.0647,
+        "neutral": 0.9233,
+        "negative": 0.012
+      }
     },
     {
       "tweet_id": "2108122816797409534",
@@ -2867,10 +4571,18 @@
       "likes": 90,
       "retweets": 63,
       "replies": 70,
-      "views": "4073",
+      "views": "4078",
       "url": "https://x.com/ojkindonesia/status/2108122816797409534",
       "keyword": null,
-      "source": "@ojkindonesia"
+      "source": "@ojkindonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9475,
+      "sentiment_raw": {
+        "positive": 0.0353,
+        "neutral": 0.9475,
+        "negative": 0.0172
+      }
     },
     {
       "tweet_id": "2108101753933836335",
@@ -2881,10 +4593,18 @@
       "likes": 19,
       "retweets": 2,
       "replies": 1,
-      "views": "1847",
+      "views": "1849",
       "url": "https://x.com/ojkindonesia/status/2108101753933836335",
       "keyword": null,
-      "source": "@ojkindonesia"
+      "source": "@ojkindonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9275,
+      "sentiment_raw": {
+        "positive": 0.0261,
+        "neutral": 0.9275,
+        "negative": 0.0464
+      }
     },
     {
       "tweet_id": "2108101310868521191",
@@ -2895,10 +4615,18 @@
       "likes": 17,
       "retweets": 3,
       "replies": 0,
-      "views": "897",
+      "views": "899",
       "url": "https://x.com/ojkindonesia/status/2108101310868521191",
       "keyword": null,
-      "source": "@ojkindonesia"
+      "source": "@ojkindonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9866,
+      "sentiment_raw": {
+        "positive": 0.0119,
+        "neutral": 0.9866,
+        "negative": 0.0015
+      }
     },
     {
       "tweet_id": "2108029208597537253",
@@ -2909,10 +4637,18 @@
       "likes": 15,
       "retweets": 3,
       "replies": 0,
-      "views": "1179",
+      "views": "1180",
       "url": "https://x.com/ojkindonesia/status/2108029208597537253",
       "keyword": null,
-      "source": "@ojkindonesia"
+      "source": "@ojkindonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.986,
+      "sentiment_raw": {
+        "positive": 0.0108,
+        "neutral": 0.986,
+        "negative": 0.0032
+      }
     },
     {
       "tweet_id": "2107827956219597034",
@@ -2926,7 +4662,15 @@
       "views": "1007",
       "url": "https://x.com/ojkindonesia/status/2107827956219597034",
       "keyword": null,
-      "source": "@ojkindonesia"
+      "source": "@ojkindonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8943,
+      "sentiment_raw": {
+        "positive": 0.0942,
+        "neutral": 0.8943,
+        "negative": 0.0115
+      }
     },
     {
       "tweet_id": "2107748143043637601",
@@ -2940,7 +4684,15 @@
       "views": "806",
       "url": "https://x.com/ojkindonesia/status/2107748143043637601",
       "keyword": null,
-      "source": "@ojkindonesia"
+      "source": "@ojkindonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9596,
+      "sentiment_raw": {
+        "positive": 0.0358,
+        "neutral": 0.9596,
+        "negative": 0.0046
+      }
     },
     {
       "tweet_id": "2107734430001549618",
@@ -2951,10 +4703,18 @@
       "likes": 13,
       "retweets": 1,
       "replies": 2,
-      "views": "1585",
+      "views": "1587",
       "url": "https://x.com/ojkindonesia/status/2107734430001549618",
       "keyword": null,
-      "source": "@ojkindonesia"
+      "source": "@ojkindonesia",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.8235,
+      "sentiment_raw": {
+        "positive": 0.1729,
+        "neutral": 0.8235,
+        "negative": 0.0036
+      }
     },
     {
       "tweet_id": "2108877488508297614",
@@ -2965,10 +4725,18 @@
       "likes": 2,
       "retweets": 0,
       "replies": 0,
-      "views": "1812",
+      "views": "1861",
       "url": "https://x.com/IDX_BEI/status/2108877488508297614",
       "keyword": null,
-      "source": "@IDX_BEI"
+      "source": "@IDX_BEI",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9875,
+      "sentiment_raw": {
+        "positive": 0.0111,
+        "neutral": 0.9875,
+        "negative": 0.0014
+      }
     },
     {
       "tweet_id": "2108588628083634304",
@@ -2979,10 +4747,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "5809",
+      "views": "5817",
       "url": "https://x.com/IDX_BEI/status/2108588628083634304",
       "keyword": null,
-      "source": "@IDX_BEI"
+      "source": "@IDX_BEI",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9925,
+      "sentiment_raw": {
+        "positive": 0.0069,
+        "neutral": 0.9925,
+        "negative": 0.0007
+      }
     },
     {
       "tweet_id": "2108584983061578139",
@@ -2993,10 +4769,18 @@
       "likes": 1,
       "retweets": 0,
       "replies": 0,
-      "views": "4297",
+      "views": "4301",
       "url": "https://x.com/IDX_BEI/status/2108584983061578139",
       "keyword": null,
-      "source": "@IDX_BEI"
+      "source": "@IDX_BEI",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9946,
+      "sentiment_raw": {
+        "positive": 0.0043,
+        "neutral": 0.9946,
+        "negative": 0.001
+      }
     },
     {
       "tweet_id": "2108547139249004690",
@@ -3007,10 +4791,18 @@
       "likes": 0,
       "retweets": 1,
       "replies": 0,
-      "views": "1925",
+      "views": "1927",
       "url": "https://x.com/IDX_BEI/status/2108547139249004690",
       "keyword": null,
-      "source": "@IDX_BEI"
+      "source": "@IDX_BEI",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9933,
+      "sentiment_raw": {
+        "positive": 0.0053,
+        "neutral": 0.9933,
+        "negative": 0.0015
+      }
     },
     {
       "tweet_id": "2108501903688728587",
@@ -3021,10 +4813,18 @@
       "likes": 4,
       "retweets": 1,
       "replies": 0,
-      "views": "3168",
+      "views": "3173",
       "url": "https://x.com/IDX_BEI/status/2108501903688728587",
       "keyword": null,
-      "source": "@IDX_BEI"
+      "source": "@IDX_BEI",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9966,
+      "sentiment_raw": {
+        "positive": 0.0022,
+        "neutral": 0.9966,
+        "negative": 0.0012
+      }
     },
     {
       "tweet_id": "2108197392634016243",
@@ -3035,10 +4835,18 @@
       "likes": 3,
       "retweets": 2,
       "replies": 0,
-      "views": "3785",
+      "views": "3787",
       "url": "https://x.com/IDX_BEI/status/2108197392634016243",
       "keyword": null,
-      "source": "@IDX_BEI"
+      "source": "@IDX_BEI",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.996,
+      "sentiment_raw": {
+        "positive": 0.003,
+        "neutral": 0.996,
+        "negative": 0.001
+      }
     },
     {
       "tweet_id": "2108166550457040998",
@@ -3049,10 +4857,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "1687",
+      "views": "1688",
       "url": "https://x.com/IDX_BEI/status/2108166550457040998",
       "keyword": null,
-      "source": "@IDX_BEI"
+      "source": "@IDX_BEI",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9932,
+      "sentiment_raw": {
+        "positive": 0.0055,
+        "neutral": 0.9932,
+        "negative": 0.0013
+      }
     },
     {
       "tweet_id": "2107806666792255833",
@@ -3063,10 +4879,18 @@
       "likes": 0,
       "retweets": 0,
       "replies": 0,
-      "views": "1717",
+      "views": "1719",
       "url": "https://x.com/IDX_BEI/status/2107806666792255833",
       "keyword": null,
-      "source": "@IDX_BEI"
+      "source": "@IDX_BEI",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.993,
+      "sentiment_raw": {
+        "positive": 0.0057,
+        "neutral": 0.993,
+        "negative": 0.0014
+      }
     },
     {
       "tweet_id": "2107442106155622533",
@@ -3077,10 +4901,18 @@
       "likes": 4,
       "retweets": 0,
       "replies": 0,
-      "views": "1880",
+      "views": "1881",
       "url": "https://x.com/IDX_BEI/status/2107442106155622533",
       "keyword": null,
-      "source": "@IDX_BEI"
+      "source": "@IDX_BEI",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9933,
+      "sentiment_raw": {
+        "positive": 0.0053,
+        "neutral": 0.9933,
+        "negative": 0.0013
+      }
     },
     {
       "tweet_id": "2107414167942734067",
@@ -3091,10 +4923,18 @@
       "likes": 1,
       "retweets": 0,
       "replies": 0,
-      "views": "1586",
+      "views": "1587",
       "url": "https://x.com/IDX_BEI/status/2107414167942734067",
       "keyword": null,
-      "source": "@IDX_BEI"
+      "source": "@IDX_BEI",
+      "language": "id",
+      "sentiment": "positive",
+      "sentiment_score": 0.7738,
+      "sentiment_raw": {
+        "positive": 0.7738,
+        "neutral": 0.223,
+        "negative": 0.0032
+      }
     },
     {
       "tweet_id": "2107086068407533703",
@@ -3105,10 +4945,18 @@
       "likes": 3,
       "retweets": 0,
       "replies": 0,
-      "views": "1975",
+      "views": "1976",
       "url": "https://x.com/IDX_BEI/status/2107086068407533703",
       "keyword": null,
-      "source": "@IDX_BEI"
+      "source": "@IDX_BEI",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9298,
+      "sentiment_raw": {
+        "positive": 0.062,
+        "neutral": 0.9298,
+        "negative": 0.0082
+      }
     },
     {
       "tweet_id": "2107085042724089974",
@@ -3119,10 +4967,18 @@
       "likes": 4,
       "retweets": 0,
       "replies": 0,
-      "views": "2386",
+      "views": "2387",
       "url": "https://x.com/IDX_BEI/status/2107085042724089974",
       "keyword": null,
-      "source": "@IDX_BEI"
+      "source": "@IDX_BEI",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9932,
+      "sentiment_raw": {
+        "positive": 0.0053,
+        "neutral": 0.9932,
+        "negative": 0.0015
+      }
     },
     {
       "tweet_id": "2106215751850004971",
@@ -3136,7 +4992,15 @@
       "views": "3120",
       "url": "https://x.com/IDX_BEI/status/2106215751850004971",
       "keyword": null,
-      "source": "@IDX_BEI"
+      "source": "@IDX_BEI",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9903,
+      "sentiment_raw": {
+        "positive": 0.008,
+        "neutral": 0.9903,
+        "negative": 0.0017
+      }
     },
     {
       "tweet_id": "2106047589422657730",
@@ -3147,10 +5011,18 @@
       "likes": 8,
       "retweets": 0,
       "replies": 0,
-      "views": "6435",
+      "views": "6437",
       "url": "https://x.com/IDX_BEI/status/2106047589422657730",
       "keyword": null,
-      "source": "@IDX_BEI"
+      "source": "@IDX_BEI",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9952,
+      "sentiment_raw": {
+        "positive": 0.0041,
+        "neutral": 0.9952,
+        "negative": 0.0006
+      }
     },
     {
       "tweet_id": "2105992330096623901",
@@ -3164,7 +5036,15 @@
       "views": "2960",
       "url": "https://x.com/IDX_BEI/status/2105992330096623901",
       "keyword": null,
-      "source": "@IDX_BEI"
+      "source": "@IDX_BEI",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9923,
+      "sentiment_raw": {
+        "positive": 0.0059,
+        "neutral": 0.9923,
+        "negative": 0.0017
+      }
     },
     {
       "tweet_id": "2105633603262849448",
@@ -3178,7 +5058,15 @@
       "views": "2863",
       "url": "https://x.com/IDX_BEI/status/2105633603262849448",
       "keyword": null,
-      "source": "@IDX_BEI"
+      "source": "@IDX_BEI",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9935,
+      "sentiment_raw": {
+        "positive": 0.005,
+        "neutral": 0.9935,
+        "negative": 0.0015
+      }
     },
     {
       "tweet_id": "2105267866207736237",
@@ -3192,7 +5080,15 @@
       "views": "2388",
       "url": "https://x.com/IDX_BEI/status/2105267866207736237",
       "keyword": null,
-      "source": "@IDX_BEI"
+      "source": "@IDX_BEI",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9944,
+      "sentiment_raw": {
+        "positive": 0.0043,
+        "neutral": 0.9944,
+        "negative": 0.0013
+      }
     },
     {
       "tweet_id": "2105257180748496932",
@@ -3206,7 +5102,15 @@
       "views": "1998",
       "url": "https://x.com/IDX_BEI/status/2105257180748496932",
       "keyword": null,
-      "source": "@IDX_BEI"
+      "source": "@IDX_BEI",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9438,
+      "sentiment_raw": {
+        "positive": 0.0483,
+        "neutral": 0.9438,
+        "negative": 0.0079
+      }
     },
     {
       "tweet_id": "2104896094085980239",
@@ -3220,7 +5124,15 @@
       "views": "2551",
       "url": "https://x.com/IDX_BEI/status/2104896094085980239",
       "keyword": null,
-      "source": "@IDX_BEI"
+      "source": "@IDX_BEI",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9945,
+      "sentiment_raw": {
+        "positive": 0.0043,
+        "neutral": 0.9945,
+        "negative": 0.0012
+      }
     },
     {
       "tweet_id": "2104531584988926006",
@@ -3234,7 +5146,15 @@
       "views": "2985",
       "url": "https://x.com/IDX_BEI/status/2104531584988926006",
       "keyword": null,
-      "source": "@IDX_BEI"
+      "source": "@IDX_BEI",
+      "language": "id",
+      "sentiment": "neutral",
+      "sentiment_score": 0.9945,
+      "sentiment_raw": {
+        "positive": 0.0043,
+        "neutral": 0.9945,
+        "negative": 0.0012
+      }
     }
   ]
 }
